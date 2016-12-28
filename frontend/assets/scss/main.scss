@@ -1,0 +1,16 @@
+@import "./node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../node_modules/angularjs-datepicker/src/css/angular-datepicker.css";
+@import "../../node_modules/animate.css/animate.min.css";
+@import "general/typography";
+@import 'general/mainStyle';
+@import "general/color";
+@import "general/input";
+
+
+@import "general/iconFont";
+//@import "general/box";
+
+@import "mixins/position";
+@import "mixins/textEffect";
+@import "mixins/text-style";
+@import "mixins/box";

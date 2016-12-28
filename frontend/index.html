@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Pets Forever (dev)</title>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+    <script data-main="/app/require.cfg.js" src="/node_modules/requirejs/require.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="/assets/images/icon.png" sizes="96x96" type="image/png"/>
+    <link rel="shortcut icon" href="/assets/images/icon.png" sizes="32x32" type="image/png"/>
+    <link rel="shortcut icon" href="/assets/images/icon.png" sizes="16x16" type="image/png"/>
+    <link rel="stylesheet" href="/build/sass/pets4ever.min.css" />
+</head>
+<body>
+<div ng-view></div>
+<script type="text/ng-template" id="templates/layout.html">
+    <div class="main-side" ng-include="pageContent"></div>
+</script>
+</body>
+</html>
