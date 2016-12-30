@@ -10,7 +10,10 @@ define([
         });
 
         $routeProvider
+            .when('/login', {templateUrl: '/templates/pages/login.html'})
+            .when('/addLifeEvent', {templateUrl: '/templates/pages/addLifeEvent.html'})
             .when('/', {templateUrl: '/templates/homepage.html'})
+            .when('/contact', {templateUrl: '/templates/pages/contact.html'})
             .otherwise({templateUrl: '/templates/404.html'});
     }
 

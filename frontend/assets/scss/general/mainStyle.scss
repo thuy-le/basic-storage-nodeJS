@@ -1,0 +1,50 @@
+a,button,img{
+  text-decoration:none !important;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  outline:none;
+}
+body{
+  font-family:'GTWalsheimProTrial-Light',sans-serif;
+}
+.placeholderForm{
+  ::-webkit-input-placeholder {
+    color: #c4c4c4;
+    font-family: 'GTWalsheimProTrial-Light',sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  ::-moz-placeholder {
+    color: #c4c4c4;
+    font-family: 'GTWalsheimProTrial-Light',sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  :-ms-input-placeholder {
+    color: #c4c4c4;
+    font-family: 'GTWalsheimProTrial-Light',sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  :-moz-placeholder {
+    color: #c4c4c4;
+    font-family: 'GTWalsheimProTrial-Light',sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+ul{
+  margin:0;
+}
+.container-fluid{
+  padding:0;
+}
+.taxonomy .container-fluid .row .col-lg-4{
+  padding:0;
+}
+.taxonomy .container-fluid .row .col-lg-6{
+  padding:0;
+}

@@ -1,10 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<ng-include src="'./templates/navigation/top.html'"></ng-include>
+<main id="addLifeEvent" class="placeholderForm">
+        <div class="container">
+            <div class="content">
+                <form action="">
+                    <h1>Add Your Pet’s Life Events</h1>
+                    <input type="text" placeholder="Title of Event">
+                    <div class="date">
+                        <label for="">What was the date of the life event?</label>
+                        <div class="inputDate pull-right">
+                            <input type="number" placeholder="Day">
+                            <input type="text" placeholder="Month">
+                            <input type="number" placeholder="Year">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="location">
+                        <label for="">Where was the location of the life event?</label>
+                        <input type="text" placeholder="Location" class="pull-right">
+                        <div class="clearfix"></div>
+                        <div class="backBtn">
+                            <a href="javascript" title="back"><img src="/assets/images/arrow-left.svg" alt="back"></a>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Story…"></textarea>
+                    </div>
+                    <a href="javascript:" title="Add another life event">+ Add another life event</a>
+                    <button>Finish</button>
+                </form>
+            </div>
+        </div>
+    <img class="img-responsive" src="/assets/images/login_page.png" alt="">
+</main>
+<ng-include src="'./templates/navigation/bottom.html'"></ng-include>
