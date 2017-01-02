@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b122e13-eab8-40f4-ac75-29925cb7e392" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/bird-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/cat-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/dog-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/fish-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/gua-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/horse-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/leg_dog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/rabbit-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/rat-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/about.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/pages/about.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img-1-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img2-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img3-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img4-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img5-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img6-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img7-taxonomy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/img8-taxonomy.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/application.js" afterPath="$PROJECT_DIR$/frontend/app/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/main.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/js/main.min.js" afterPath="$PROJECT_DIR$/frontend/build/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" afterPath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/homepage.html" afterPath="$PROJECT_DIR$/frontend/templates/homepage.html" />
     </list>
@@ -31,18 +53,38 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainStyle.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/about.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/templates/pages/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainStyle.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="203">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -51,8 +93,8 @@
       <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/templates/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+            <state relative-caret-position="332">
+              <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#main#0;n#!!top" expanded="true" />
@@ -67,21 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="170" column="23" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -108,16 +140,18 @@
         <option value="$PROJECT_DIR$/frontend/assets/scss/navigation/top.scss" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/contact.html" />
         <option value="$PROJECT_DIR$/frontend/templates/navigation/top.html" />
-        <option value="$PROJECT_DIR$/frontend/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/frontend/app/application.js" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/login.html" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/login.scss" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss" />
-        <option value="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
+        <option value="$PROJECT_DIR$/frontend/app/application.js" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/about.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/about.scss" />
         <option value="$PROJECT_DIR$/frontend/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
       </list>
     </option>
   </component>
@@ -162,8 +196,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -455,24 +489,25 @@
       <workItem from="1482923962259" duration="2500000" />
       <workItem from="1482983752203" duration="31055000" />
       <workItem from="1483063223506" duration="15178000" />
-      <workItem from="1483158026459" duration="6514000" />
+      <workItem from="1483158026459" duration="9485000" />
+      <workItem from="1483330441652" duration="5004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66891000" />
+    <option name="totallyTimeSpent" value="74866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0688351" sideWeight="0.50490195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.50490195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18330605" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23039216" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26096824" sideWeight="0.49509802" order="2" side_tool="true" content_ui="tabs" x="29" y="372" width="340" height="193" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -501,22 +536,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -844,14 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -875,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -893,24 +896,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        <state relative-caret-position="332">
+          <caret line="149" column="34" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#main#0;n#!!top" expanded="true" />
@@ -924,10 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss">
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="170" column="23" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
+        <state relative-caret-position="203">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding />
         </state>
       </provider>
