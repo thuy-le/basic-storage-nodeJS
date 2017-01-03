@@ -1,0 +1,18 @@
+[
+    { "username": "Admin User", "email": "admin@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Manager User 1", "email": "manager@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Manager User 2", "email": "manager2@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Manager User 3", "email": "manager3@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Manager User 4", "email": "manager4@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Manager User 5", "email": "manager5@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "John Tran", "email": "john@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Kim Harvey", "email": "kim@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Andina", "email": "andina@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Andy Bentley", "email": "andy@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Benedict Arthur", "email": "benedict@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Justin Janes", "email": "justin@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Frank Chase", "email": "frank@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "David Cook", "email": "david@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Annie Evans", "email": "annie@pestforever.com.au", "password": "thenatives123@" },
+    { "username": "Jade Jackson", "email": "jade@pestforever.com.au", "password": "thenatives123@" }
+]
