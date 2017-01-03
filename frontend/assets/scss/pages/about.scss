@@ -2,7 +2,7 @@
   .titlePage{
     padding-top:272px;
     padding-bottom:211px;
-    background: #000;
+    background-image:url('/assets/images/about-bg.png');
     h1{
       color: #ffffff;
       font-family:'GTWalsheimProTrial-Bold',sans-serif;
@@ -30,19 +30,25 @@
   .lifePet{
     padding-top:194px;
     padding-bottom: 194px;
-    background-repeat: no-repeat;
-    background-position: right;
+    position: relative;
     p{
       color: #000000;
       font-size: 20px;
       line-height: 26px;
       max-width: 380px;
+      font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+    }
+    img{
+      height: 100%;
+      position: absolute;
+      right:0;
+      top:0;
     }
   }
   .memoriesPet{
     background: #2d2d2d;
-    padding-top: 307px;
-    padding-bottom: 293px;
+    padding-top: 193px;
+    padding-bottom: 153px;
     p{
       max-width:295px;
       color: #898989;
