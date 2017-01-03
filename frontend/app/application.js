@@ -11,6 +11,7 @@ define([
 
         $routeProvider
             .when('/login', {templateUrl: '/templates/pages/login.html'})
+            .when('/blog', {templateUrl: '/templates/pages/blog.html'})
             .when('/createprofile', {templateUrl: '/templates/pages/createProfile.html'})
             .when('/about', {templateUrl: '/templates/pages/about.html'})
             .when('/addLifeEvent', {templateUrl: '/templates/pages/addLifeEvent.html'})
