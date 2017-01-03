@@ -1,0 +1,54 @@
+#aboutPage{
+  .titlePage{
+    padding-top:272px;
+    padding-bottom:211px;
+    background: #000;
+    h1{
+      color: #ffffff;
+      font-family:'GTWalsheimProTrial-Bold',sans-serif;
+      font-size: 72px;
+      line-height: 74px;
+      max-width: 1080px;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  .introducePage{
+    padding-top: 103px;
+    padding-bottom: 76px;
+    background-color: #1c1c1c;
+    p{
+      color: #ffffff;
+      font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+      font-size: 24px;
+      line-height: 31px;
+      max-width: 582px;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  .lifePet{
+    padding-top:194px;
+    padding-bottom: 194px;
+    background-repeat: no-repeat;
+    background-position: right;
+    p{
+      color: #000000;
+      font-size: 20px;
+      line-height: 26px;
+      max-width: 380px;
+    }
+  }
+  .memoriesPet{
+    background: #2d2d2d;
+    padding-top: 307px;
+    padding-bottom: 293px;
+    p{
+      max-width:295px;
+      color: #898989;
+      font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+}

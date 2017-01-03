@@ -2,7 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28399e8-8fb0-4b77-9956-5c63804faf8c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Bold/GTWalsheimProTrial-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Bold/GTWalsheimProTrial-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Bold/GTWalsheimProTrial-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Bold/GTWalsheimProTrial-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Light/GTWalsheimProTrial-Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Light/GTWalsheimProTrial-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Light/GTWalsheimProTrial-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Light/GTWalsheimProTrial-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Medium/GTWalsheimProTrial-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Medium/GTWalsheimProTrial-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Medium/GTWalsheimProTrial-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Medium/GTWalsheimProTrial-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Regular/GTWalsheimProTrial-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Regular/GTWalsheimProTrial-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Regular/GTWalsheimProTrial-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Regular/GTWalsheimProTrial-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/bg_getStaredHome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/bird-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/cat-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/cat_home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/dog-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/dog-walk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/fish-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/gua-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/horse-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/icon-header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/img-profile1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/img-profile2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/img-profile3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/leg_dog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/login_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/rabbit-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/rat-color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/npm-debug.log.988095904" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/npm-debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Bold/GTWalsheimProTrial-Bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Light/GTWalsheimProTrial-Light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Medium/GTWalsheimProTrial-Medium.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/fonts/GTWalsheimProTrial-Regular/GTWalsheimProTrial-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/arrow-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/logo-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/navigation/bottom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/navigation/top.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/about.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/login.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/navigation/bottom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/navigation/top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/pages/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/pages/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/pages/createProfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/templates/pages/login.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Bold/Gotham-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Bold/Gotham-Bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Bold/Gotham-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Bold/Gotham-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Bold/Gotham-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Light/Gotham-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Light/Gotham-Light.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Light/Gotham-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Light/Gotham-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Light/Gotham-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Medium/Gotham-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Medium/Gotham-Medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Medium/Gotham-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Medium/Gotham-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/fonts/Gotham-Medium/Gotham-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/Addnew-Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/Analytics-Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/Group-Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/LandingPage-Icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/avarta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/border-anim-h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/border-anim-v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/border-h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/border-v.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/btnUploadReciept.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/btnUploadStatement.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/cancel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/exampleImage01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/exampleImage02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/exampleImage03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/exampleImage04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/exampleImage05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/glag-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/icon-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/logo-salesfix.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/logoFrm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/message.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/plus-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/redpanda-640x480.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/search-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/smartphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/thenatives-logo-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/trashIcon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/upload-to-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/images/user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/iconFont.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/input.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/mixins/box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/mixins/position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/mixins/text-style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/mixins/textEffect.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/semaphore/semaphore.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/assets/scss/text/default-text.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/box.scss" afterPath="$PROJECT_DIR$/frontend/npm-debug.log.4038677370" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/text.scss" afterPath="$PROJECT_DIR$/frontend/npm-debug.log.2415172987" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/assets/scss/input/default-input.scss" afterPath="$PROJECT_DIR$/frontend/npm-debug.log.1475352678" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/application.js" afterPath="$PROJECT_DIR$/frontend/app/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/typography.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/general/typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/main.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/js/main.min.js" afterPath="$PROJECT_DIR$/frontend/build/js/main.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" afterPath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/homepage.html" afterPath="$PROJECT_DIR$/frontend/templates/homepage.html" />
     </list>
     <ignored path="pets-forever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +150,8 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -57,6 +181,7 @@
         <option value="$PROJECT_DIR$/backend/src/node_modules/migrations/UserData.ts" />
         <option value="$PROJECT_DIR$/backend/src/node_modules/application/MigrationRunner.ts" />
         <option value="$PROJECT_DIR$/backend/src/node_modules/gateway/user/UserGateway.ts" />
+        <option value="$PROJECT_DIR$/frontend/app/application.js" />
       </list>
     </option>
   </component>
@@ -116,6 +241,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -127,14 +266,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../just-done-app" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/src/node_modules/gateway/user" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/resources" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -197,24 +328,25 @@
       <workItem from="1482917691466" duration="303000" />
       <workItem from="1482918035086" duration="5739000" />
       <workItem from="1482995722343" duration="2267000" />
-      <workItem from="1483412387713" duration="1845000" />
+      <workItem from="1483412387713" duration="2632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10154000" />
+    <option name="totallyTimeSpent" value="10941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -222,7 +354,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -549,10 +680,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../just-done-app/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="124" selection-start-line="12" selection-start-column="124" selection-end-line="12" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>

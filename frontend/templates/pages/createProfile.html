@@ -1,0 +1,27 @@
+<ng-include src="'./templates/navigation/top.html'"></ng-include>
+<main id="createProfilePage" class="placeholderForm">
+    <div class="container">
+        <div class="content">
+            <h1>Enter Your Details</h1>
+            <form action="">
+                <div class="inputText">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Surname">
+                    <input type="email" placeholder="Email address">
+                    <input type="text" placeholder="Confirm email address">
+                    <input type="password" placeholder="New password">
+                    <input type="number" placeholder="Age">
+                    <div class="nextBtn">
+                        <a href="javascript" title="Next Step"><img src="/assets/images/arrow-left.svg" alt="back"></a>
+                    </div>
+                </div>
+                <div class="sex">
+                    <input type="radio" value="Female"><label for="Female">Female</label>
+                    <input type="radio" value="Male"><label for="Male">Male</label>
+                </div>
+            </form>
+            <h6>By clicking Next, you agree to our Terms and that you have read our Data Policy.</h6>
+        </div>
+    </div>
+</main>
+<ng-include src="'./templates/navigation/bottom.html'"></ng-include>
