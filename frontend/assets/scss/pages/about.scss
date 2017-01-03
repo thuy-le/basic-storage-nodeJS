@@ -37,6 +37,7 @@
       line-height: 26px;
       max-width: 380px;
       font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+
     }
     img{
       height: 100%;
@@ -55,6 +56,11 @@
       font-family: 'GTWalsheimProTrial-Bold',sans-serif;
       font-size: 24px;
       line-height: 30px;
+      margin: auto;
+      margin-top:25%;
+    }
+    img{
+      float: right;
     }
   }
 }
