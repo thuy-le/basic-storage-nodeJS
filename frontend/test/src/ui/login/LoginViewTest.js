@@ -1,12 +1,12 @@
 define(function(require) {
     'use strict';
-	describe('ui/MainView', function() {
-		var MainView = require('ui/MainView');
+	describe('ui/login/LoginView', function() {
+		var LoginView = require('ui/login/LoginView');
 		var ViewHelper = require('test-helpers/View');
 
 		var sut;
 		beforeEach(function() {
-			sut = ViewHelper.exerciseCreate(MainView);
+			sut = ViewHelper.exerciseCreate(LoginView);
 		});
 
 		var getSut = function() { return sut; };

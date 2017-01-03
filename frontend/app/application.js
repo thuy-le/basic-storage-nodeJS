@@ -25,7 +25,8 @@ define([
         angularConfig: AngularConfig,
         angularModules: ['ngRoute', 'ngMask', 'ui.bootstrap'],
         components: [
-            'ui/MainController'
+            'ui/MainController',
+            'ui/login/LoginController'
         ],
         angularRun: AngularRun
     });

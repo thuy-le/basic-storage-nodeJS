@@ -6,7 +6,7 @@ define(function(require) {
     function AngularRun($location, $rootScope) {
         //
         // var authenticationService = AuthenticationService.newInstance();
-        // $rootScope.$on('$routeChangeSuccess', function () {
+        // $rootScope.$on('$routeChangeSuccess', function() {
         //     if(!authenticationService.validate()){
         //         window.location.href = '#/login';
         //     }
