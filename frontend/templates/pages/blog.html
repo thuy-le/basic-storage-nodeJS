@@ -1,19 +1,6 @@
-<ng-include src="'./templates/navigation/top.html'"></ng-include>
+
 <main id="blogPage">
-    <section class="header">
-        <div class="container">
-            <a href="javascript:" title="Category" class="category">Category</a>
-            <h4>Featured</h4>
-            <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-            <h5>Lorem ipsum dolor sit amet, consectetur.</h5>
-            <div class="date">
-                <span>November 29th 2016, By Eric Hsu</span>
-                <a href="javascript:" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="javascript:" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="javascript:" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </section>
+    <ng-include src="'./templates/element/headerBlog.html'"></ng-include>
     <section class="contentBlog">
         <div class="container">
             <div class="row firstRow">
@@ -103,11 +90,10 @@
         </div>
     </section>
     <section class="partnership">
-        <div class="container">
+        <div class="container-fluid">
             <h2>In partnership with RSPCA</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur elit et lacus lacinia, et pellentesque mi suscipit.</p>
             <img class="img-responsive" src="assets/images/login_page.png" alt="">
         </div>
     </section>
 </main>
-<ng-include src="'./templates/navigation/bottom.html'"></ng-include>

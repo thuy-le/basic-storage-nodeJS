@@ -1,20 +1,5 @@
 #blogPage{
-  .category{
-    display: inline-block;
-    color: #ffffff;
-    font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-    font-size: 18px;
-    line-height: 23px;
-    padding: 3px 18px;
-    border-radius: 100px;
-    background-color: #8d8d8d;
-    opacity: 0.57;
-    border: 2px solid #8d8d8d;
-  }
-  .category:hover{
-    background: #fff;
-    color:#8d8d8d;
-  }
+
   .postDate{
     color: #ffffff;
     font-size: 18px;
@@ -25,55 +10,6 @@
   .height{
     height: 447px;
     text-align: center;
-  }
-  .header{
-    padding-top: 181px;
-    padding-bottom: 62px;
-    background-image: url('/assets/images/header-blog.png');
-    .category{}
-    h4{
-      color: #ffffff;
-      font-size: 14px;
-      letter-spacing: 2px;
-      line-height: 15px;
-      margin-top:28px;
-      margin-bottom: 3px;
-      text-transform: uppercase;
-      margin-bottom: 0;
-      margin-top: 28px;
-    }
-    h1{
-      color: #ffffff;
-      font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-      font-size: 48px;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    h5{
-      color: #ffffff;
-      font-size: 24px;
-      margin-bottom: 97px;
-    }
-    .date{
-      span{
-        color: #ffffff;
-        font-size: 18px;
-        line-height: 24px;
-        display: inline-block;
-        margin-right:35px;
-      }
-      a{
-        display: inline-block;
-        margin-right:17px;
-        i{
-          color: #fff;
-        }
-      }
-      a:hover i{
-        color:blue;
-        opacity: 0.5;
-      }
-    }
   }
   .contentBlog{
     padding-top: 115px;
@@ -154,7 +90,7 @@
           line-height: 28px;
         }
         input{
-          color: #ffcaca;
+          color: #fff;
           font-size: 16px;
           line-height: 24px;
           width: 100%;

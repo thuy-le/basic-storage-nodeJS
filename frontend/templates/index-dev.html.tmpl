@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="/build/sass/pets4ever.min.css" />
 </head>
 <body>
+<ng-include src="'./templates/navigation/top.html'"></ng-include>
 <div ng-view></div>
 <script type="text/ng-template" id="templates/layout.html">
     <div class="main-side" ng-include="pageContent"></div>
 </script>
+<ng-include src="'./templates/navigation/bottom.html'"></ng-include>
 </body>
 </html>
