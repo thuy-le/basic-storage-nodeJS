@@ -1,0 +1,53 @@
+#basicProfilePage{
+  background:#EDEDED;
+  padding-top: 143px;
+  padding-bottom: 217px;
+  .container{
+    background: #fff;
+    padding-top: 58px;
+    padding-bottom: 827px;
+    .left{
+      text-align: center;
+    }
+    .right{
+      padding: 0;
+      h1{
+        color: #000000;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 36px;
+        line-height: 44px;
+        margin: 0 0 17px 35px;
+      }
+      .description{
+        p{
+          color: #696969;
+          font-size: 17px;
+          line-height: 26px;
+          max-width: 525px;
+          margin-left: 25px;
+        }
+      }
+      .information{
+        h6{
+          color:#000 ;
+          font-size: 17px;
+          line-height: 26px;
+          margin:0;
+          span{
+            color:#696969;
+            display: inline-block;
+            margin-right: 15px;
+            width: 80px;
+          }
+        }
+      }
+      .images{
+        margin-top: 100px;
+        img{
+          width: 50%;
+          float: left;
+        }
+      }
+    }
+  }
+}
