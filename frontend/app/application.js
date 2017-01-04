@@ -12,7 +12,8 @@ define([
         $routeProvider
             .when('/login', {templateUrl: '/templates/pages/login.html'})
             .when('/blog', {templateUrl: '/templates/pages/blog.html'})
-            .when('/createprofile', {templateUrl: '/templates/pages/createProfile.html'})
+            .when('/blog-article', {templateUrl: '/templates/pages/blogArticle.html'})
+            .when('/create-profile', {templateUrl: '/templates/pages/createProfile.html'})
             .when('/about', {templateUrl: '/templates/pages/about.html'})
             .when('/addLifeEvent', {templateUrl: '/templates/pages/addLifeEvent.html'})
             .when('/', {templateUrl: '/templates/homepage.html'})
