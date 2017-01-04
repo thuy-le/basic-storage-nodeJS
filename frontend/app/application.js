@@ -13,7 +13,7 @@ define([
             .when('/login', {templateUrl: '/templates/pages/login.html'})
             .when('/create-profile', {templateUrl: '/templates/pages/createProfile.html'})
             .when('/about', {templateUrl: '/templates/pages/about.html'})
-            .when('/addLifeEvent', {templateUrl: '/templates/pages/addLifeEvent.html'})
+            .when('/addLife-event', {templateUrl: '/templates/pages/addLifeEvent.html'})
             .when('/', {templateUrl: '/templates/homepage.html'})
             .when('/contact', {templateUrl: '/templates/pages/contact.html'})
             .otherwise({templateUrl: '/templates/404.html'});
