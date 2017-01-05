@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9b122e13-eab8-40f4-ac75-29925cb7e392" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/login.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/login.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" afterPath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/contact.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/createProfile.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/createProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy4.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/login.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" />
     </list>
     <ignored path="pets-forever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +40,8 @@
       <file leaf-file-name="mainStyle.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="275">
+              <caret line="207" column="12" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -66,31 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createProfileCopy4.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss">
+      <file leaf-file-name="createProfileCopy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="85">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createProfileCopy4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy4.html">
+      <file leaf-file-name="createProfileCopy.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/templates/pages/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="179">
+              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -118,7 +99,6 @@
         <option value="$PROJECT_DIR$/frontend/templates/pages/about.html" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/about.scss" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy3.html" />
-        <option value="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/petsMemorial.html" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/viewMoreMemorials.html" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/petsMemorialSearchFilter.html" />
@@ -151,6 +131,8 @@
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss" />
         <option value="$PROJECT_DIR$/frontend/templates/pages/contact.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss" />
       </list>
     </option>
   </component>
@@ -641,12 +623,12 @@
       <workItem from="1483448749028" duration="1619000" />
       <workItem from="1483452096658" duration="949000" />
       <workItem from="1483494139298" duration="25203000" />
-      <workItem from="1483583178408" duration="10662000" />
+      <workItem from="1483583178408" duration="17036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139044000" />
+    <option name="totallyTimeSpent" value="145418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -658,7 +640,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44353518" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20877458" sideWeight="0.5046296" order="2" side_tool="true" content_ui="tabs" x="29" y="372" width="340" height="193" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -950,42 +932,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1002,14 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1046,6 +988,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -1056,8 +1006,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/pages/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="207" column="12" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding />
         </state>
       </provider>
