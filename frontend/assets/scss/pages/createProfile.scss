@@ -24,30 +24,18 @@
             line-height: 26px;
             padding: 25px;
             display: inline-block;
-            border-radius: 4px;
-            border: 2px solid #e0e0e0;
-            background-color: #fdfdfd;
             margin-bottom: 22px;
           }
           input:nth-child(2n){
               float: right;
           }
-          .nextBtn{
-            position: absolute;
+          .btnStep{
             right: -192px;
             bottom: 107px;
             a{
               img{
-                width: 58px;
-                height: 58px;
-                background: #d8d8d8;
-                padding: 14px;
-                border-radius: 50%;
                 transform: rotateY(180deg);
               }
-            }
-            a:hover img{
-              background: #000;
             }
           }
           .nextBtn:after{

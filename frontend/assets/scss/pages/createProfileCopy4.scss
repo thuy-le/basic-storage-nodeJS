@@ -1,0 +1,59 @@
+#createProfileCopy4Page{
+  h1{}
+  form{
+    width:628px;
+    margin: auto;
+    .line{
+      margin-bottom: 25px;
+      input{
+        color: #000000;
+        font-family:'GTWalsheimProTrial-Regular',sans-serif;
+        font-size: 17px;
+        line-height: 26px;
+        width: 302px;
+        padding: 25px;
+      }
+      select{
+        color: #000000;
+        font-family:'GTWalsheimProTrial-Regular',sans-serif;
+        font-size: 17px;
+        line-height: 26px;
+        width: 302px;
+        height: 80px;
+        padding-left: 25px;
+      }
+    }
+    .line-1{}
+    .line-2{}
+    .line-3{
+      position: relative;
+      .btnNextStep{
+        right:-192px;
+        top:65px;
+        a{
+          img{}
+        }
+      }
+      .btnPrevStep{
+        left: -192px;
+        top:65px;
+      }
+    }
+    .line-4{}
+    .line-5{
+      textarea{
+        height: 81px;
+      }
+    }
+    .line-6{}
+    .line-7{}
+    textarea{
+      padding:25px;
+      border-radius: 4px;
+      border: 2px solid #e0e0e0;
+      background-color: #fdfdfd;
+      width: 100%;
+    }
+
+  }
+}
