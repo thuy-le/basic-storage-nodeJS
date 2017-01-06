@@ -1,18 +1,10 @@
 #loginPage{
-  background: #f2f2f2;
-  padding-top: 176px;
   img{}
   .content{
     max-width: 628px;
     margin: auto;
     margin-bottom: 110px;
     h1{
-      color: #000000;
-      font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-      font-size: 36px;
-      line-height: 44px;
-      text-align: center;
-      margin: 0;
       margin-bottom: 70px;
     }
     a{
@@ -51,9 +43,6 @@
       font-family: 'GTWalsheimProTrial-Regular',sans-serif;
       font-size: 17px;
       line-height: 26px;
-      border-radius: 4px;
-      border: 2px solid #e0e0e0;
-      background-color: #fdfdfd;
     }
     input[type="checkbox"]{
       margin: 0;

@@ -15,8 +15,14 @@
 =======
     <list default="true" id="9b122e13-eab8-40f4-ac75-29925cb7e392" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/application.js" afterPath="$PROJECT_DIR$/frontend/app/application.js" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" afterPath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
     </list>
     <ignored path="pets-forever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,6 +44,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="Contact.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/node_modules/domain/contact/Contact.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,10 +55,13 @@
               </folding>
 =======
       <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+            <state relative-caret-position="0">
+              <caret line="27" column="80" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="80" />
               <folding />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
             </state>
@@ -81,14 +91,15 @@
       <file leaf-file-name="mainStyle.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+            <state relative-caret-position="275">
+              <caret line="207" column="12" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="12" />
               <folding />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="ContactRouting.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/node_modules/application/router/contact/ContactRouting.ts">
@@ -102,11 +113,19 @@
             <state relative-caret-position="1785">
               <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="33" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="ContactCommandSystem.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/src/node_modules/application/system/contact/ContactCommandSystem.ts">
@@ -119,9 +138,23 @@
 =======
       <file leaf-file-name="blog.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/blog.scss">
+=======
+      <file leaf-file-name="createProfileCopy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html">
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4947">
-              <caret line="291" column="3" selection-start-line="291" selection-start-column="3" selection-end-line="291" selection-end-column="3" />
+            <state relative-caret-position="85">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createProfileCopy.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
             </state>
@@ -144,6 +177,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/backend/package.json" />
         <option value="$PROJECT_DIR$/backend/resources/users.json" />
         <option value="$PROJECT_DIR$/backend/src/node_modules/domain/User/User.ts" />
@@ -182,13 +216,53 @@
         <option value="$PROJECT_DIR$/frontend/templates/pages/createProfile.html" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
+=======
+        <option value="$PROJECT_DIR$/frontend/templates/navigation/bottom.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/navigation/bottom.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/navigation/top.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         <option value="$PROJECT_DIR$/frontend/templates/pages/about.html" />
         <option value="$PROJECT_DIR$/frontend/assets/scss/pages/about.scss" />
-        <option value="$PROJECT_DIR$/frontend/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/blog.scss" />
-        <option value="$PROJECT_DIR$/frontend/templates/pages/blog.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy3.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/petsMemorial.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/viewMoreMemorials.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/petsMemorialSearchFilter.html" />
         <option value="$PROJECT_DIR$/frontend/app/application.js" />
+<<<<<<< HEAD
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+        <option value="$PROJECT_DIR$/frontend/templates/index-dev.html.tmpl" />
+        <option value="$PROJECT_DIR$/frontend/templates/index-prod.html.tmpl" />
+        <option value="$PROJECT_DIR$/frontend/templates/element/headerBlog.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/blog.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/element/headerBlog.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/navigation/top.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/blogArticle.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/blogArticle.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/blog.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/basicProfile.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/basicProfile.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/general/typography.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/flaticon.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/petsMemorialGrid.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/petsMemorialGrid.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/createProfile.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/login.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy4.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/addLifeEvent.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/login.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/contact.html" />
+        <option value="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html" />
+        <option value="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
       </list>
     </option>
   </component>
@@ -355,7 +429,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="node_modules" />
+=======
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -471,7 +571,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="contact" />
+=======
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,11 +646,129 @@
               <option name="myItemId" value="user" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GTWalsheimProTrial-Bold" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flaticon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets-forever" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,8 +778,23 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/src/node_modules/application" />
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\pets-forever\frontend\assets\fonts" />
+      <recent name="D:\Project\pets-forever\frontend\assets\images" />
+      <recent name="D:\Project\pets-forever\frontend\assets\fonts\GTWalsheimProTrial-Bold" />
+      <recent name="D:\Project\pets-forever\frontend\assets\fonts\GTWalsheimProTrial-Light" />
+      <recent name="D:\Project\pets-forever\frontend\assets\fonts\GTWalsheimProTrial-Medium" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\pets-forever\frontend\assets\scss\pages" />
+      <recent name="D:\Project\pets-forever\frontend\assets\fonts\flaticon" />
+      <recent name="D:\Project\pets-forever\frontend\assets\fonts" />
+      <recent name="D:\Project\pets-forever\frontend\assets\images" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
     </key>
   </component>
   <component name="RunManager">
@@ -635,12 +876,18 @@
       <workItem from="1483407290401" duration="25511000" />
       <workItem from="1483448749028" duration="1619000" />
       <workItem from="1483452096658" duration="949000" />
+<<<<<<< HEAD
       <workItem from="1483494139298" duration="1901000" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+      <workItem from="1483494139298" duration="25203000" />
+      <workItem from="1483583178408" duration="17036000" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="26710000" />
   </component>
@@ -651,18 +898,26 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2642344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
     <option name="totallyTimeSpent" value="105080000" />
+=======
+    <option name="totallyTimeSpent" value="145418000" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.50490195" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.49537036" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -670,6 +925,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34640524" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26096824" sideWeight="0.49509802" order="2" side_tool="true" content_ui="tabs" x="29" y="372" width="340" height="193" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44353518" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20877458" sideWeight="0.5046296" order="2" side_tool="true" content_ui="tabs" x="29" y="372" width="340" height="193" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -699,6 +958,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/frontend/templates/navigation/top.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -734,12 +994,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/test/src/ui/loginViewTest.js" />
     <entry file="file://$PROJECT_DIR$/frontend/test/src/SmokeTest.js">
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/app/Configuration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/grunt/config/watch.js">
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/install_docker.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -829,6 +1107,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/templates/navigation/bottom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/navigation/bottom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/navigation/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/petsMemorial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/viewMoreMemorials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/petsMemorialSearchFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/petsMemorial.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/viewMoreMemorials.scss">
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="216">
@@ -836,6 +1181,7 @@
 =======
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
         </state>
       </provider>
@@ -875,36 +1221,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+=======
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/petsMemorialsSearchFilter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/index-prod.html.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/index-dev.html.tmpl">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+=======
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="68" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/homepage.html">
+    <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="288">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
 =======
         <state relative-caret-position="17">
           <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+=======
+        <state relative-caret-position="0">
+          <caret line="27" column="80" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="80" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/element/headerBlog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
           <folding />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -918,12 +1309,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfile.html">
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="93">
+          <caret line="199" column="25" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/element/headerBlog.html">
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/frontend/templates/index-prod.html.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1057,18 +1460,126 @@
         <state relative-caret-position="51">
           <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/navigation/top.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/blogArticle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/blogArticle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/basicProfile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/basicProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/_flaticon.scss" />
+    <entry file="file://$PROJECT_DIR$/frontend/assets/fonts/flaticon/Flaticon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="97" column="14" selection-start-line="91" selection-start-column="4" selection-end-line="97" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="162" column="14" selection-start-line="72" selection-start-column="4" selection-end-line="162" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/flaticon.css" />
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/petsMemorialGrid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/petsMemorialGrid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/flaticon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="24" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/node_modules/migrations/UserData.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="162">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+=======
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/node_modules/framework/Command.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1109,11 +1620,17 @@
         <state relative-caret-position="270">
           <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+        <state relative-caret-position="120">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="19" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/node_modules/application/router/PingRouting.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="54">
           <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
@@ -1136,11 +1653,25 @@
         <state relative-caret-position="323">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+        <state relative-caret-position="103">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/node_modules/application/Configuration.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="162">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -1162,25 +1693,33 @@
 =======
         <state relative-caret-position="151">
           <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/homepage.html">
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/addLifeEvent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="194" column="14" selection-start-line="188" selection-start-column="4" selection-end-line="194" selection-end-column="14" />
+        <state relative-caret-position="314">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/contact.html">
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="65" />
+        <state relative-caret-position="120">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/about.html">
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy4.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="314">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
@@ -1195,25 +1734,45 @@
 =======
         <state relative-caret-position="119">
           <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
->>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1785">
+          <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
+>>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
+=======
+        <state relative-caret-position="275">
+          <caret line="207" column="12" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="12" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/backend/src/node_modules/gateway/user/UserGateway.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1221,14 +1780,18 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
 =======
     <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/blog.scss">
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/main.scss">
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4947">
-          <caret line="291" column="3" selection-start-line="291" selection-start-column="3" selection-end-line="291" selection-end-column="3" />
+        <state relative-caret-position="85">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="33" />
           <folding />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/backend/src/node_modules/application/system/contact/ContactCommandSystem.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1240,14 +1803,20 @@
 =======
         <state relative-caret-position="1989">
           <caret line="117" column="22" selection-start-line="117" selection-start-column="22" selection-end-line="117" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/frontend/templates/pages/createProfileCopy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/application.js">
+    <entry file="file://$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+        <state relative-caret-position="179">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding />
 >>>>>>> bc2f2060ae5a21c875b9c6e5cccefe2d43de7da9
         </state>

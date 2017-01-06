@@ -41,3 +41,13 @@
   url('/assets/fonts/GTWalsheimProTrial-Regular/GTWalsheimProTrial-Regular.eot?#iefix') format('embedded-opentype');
   font-weight:normal!important;
 }
+
+@font-face {
+  font-family: 'Flaticon';
+  src: url('/assets/fonts/flaticon/Flaticon.eot'),
+  url('/assets/fonts/flaticon/Flaticon.woff') format('woff'),
+  url('/assets/fonts/flaticon/Flaticon.ttf') format('truetype'),
+  url('/assets/fonts/flaticon/Flaticon.svg#svgFontName') format('svg'),
+  url('/assets/fonts/flaticon/Flaticon.eot?#iefix') format('embedded-opentype');
+  font-weight:normal!important;
+}

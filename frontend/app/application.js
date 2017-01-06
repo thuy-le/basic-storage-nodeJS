@@ -14,10 +14,22 @@ define([
             .when('/blog', {templateUrl: '/templates/pages/blog.html'})
             .when('/blog-article', {templateUrl: '/templates/pages/blogArticle.html'})
             .when('/create-profile', {templateUrl: '/templates/pages/createProfile.html'})
+            .when('/create-profile-copy', {templateUrl: '/templates/pages/createProfileCopy.html'})
+            .when('/create-profile-copy-3', {templateUrl: '/templates/pages/createProfileCopy3.html'})
+            .when('/create-profile-copy-4', {templateUrl: '/templates/pages/createProfileCopy4.html'})
             .when('/about', {templateUrl: '/templates/pages/about.html'})
+<<<<<<< HEAD
             .when('/addLife-event', {templateUrl: '/templates/pages/addLifeEvent.html'})
+=======
+            .when('/add-life-event', {templateUrl: '/templates/pages/addLifeEvent.html'})
+>>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
             .when('/', {templateUrl: '/templates/homepage.html'})
             .when('/contact', {templateUrl: '/templates/pages/contact.html'})
+            .when('/pets-memorial', {templateUrl: '/templates/pages/petsMemorial.html'})
+            .when('/view-more-memorials', {templateUrl: '/templates/pages/viewMoreMemorials.html'})
+            .when('/pets-memorial-grid', {templateUrl: '/templates/pages/petsMemorialGrid.html'})
+            .when('/pets-memorials-search-filter', {templateUrl: '/templates/pages/petsMemorialsSearchFilter.html'})
+            .when('/basic-profile', {templateUrl: '/templates/pages/basicProfile.html'})
             .otherwise({templateUrl: '/templates/404.html'});
     }
 

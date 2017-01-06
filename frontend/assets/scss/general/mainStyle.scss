@@ -7,8 +7,38 @@ a,button,img{
   transition: all 0.5s;
   outline:none;
 }
+textarea,input{
+  color: #000;
+  font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  border-radius: 4px;
+  border: 2px solid #e0e0e0;
+  background-color: #fdfdfd;
+}
+select{
+  border-radius: 4px;
+  border: 2px solid #e0e0e0;
+  background-color: #fdfdfd;
+}
 body{
   font-family:'GTWalsheimProTrial-Light',sans-serif;
+}
+.category{
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 3px 18px;
+  border-radius: 100px;
+  background-color: #8d8d8d;
+  opacity: 0.57;
+  border: 2px solid #8d8d8d;
+}
+.category:hover{
+  background: #fff;
+  color:#8d8d8d;
 }
 .placeholderForm{
   ::-webkit-input-placeholder {
@@ -116,8 +146,8 @@ ul{
   padding-top: 102px;
   padding-bottom:90px;
   background: #fff9f8;
-  .container{
-    text-align: center;
+
+
     h2{
       color: #ff3f36;
       font-family: 'GTWalsheimProTrial-Bold',sans-serif;
@@ -125,6 +155,7 @@ ul{
       line-height: 54px;
       max-width: 390px;
       margin: auto;
+      text-align: center;
     }
     p{
       color: #a3a3a3;
@@ -135,8 +166,87 @@ ul{
       margin-top:26px;
       line-height: 26px;
       margin-bottom:90px;
+      text-align: center;
     }
     img{}
-  }
 }
+.btnStep a img{
+  width: 58px;
+  height: 58px;
+  background: #d8d8d8;
+  padding: 14px;
+  border-radius: 50%;
+}
+.formPage{
+  padding-top: 173px;
+  background:#F2F2F2 ;
+}
+.formPage h1{
+  color: #000000;
+  font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 59px;
+  text-align: center;
+}
+.btnStep a:hover img{
+  background: #000;
+}
+.btnStep{
+  position: absolute;
+}
+.btnStep:after{
+  position: absolute;
+  bottom: -25px;
+  color: #828282;
+  font-size: 13px;
+  color: #000000;
+  width: 60px;
+  font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+}
+.btnNextStep{
+    a{
+      img{
+        transform: rotateY(180deg);
+      }
+    }
+}
+.btnNextStep:after{
+  content: 'Next Step';
+  left: 5px;
+
+}
+.btnPrevStep:after{
+  content: 'Back';
+  left: 15px;
+}
+.message{
+  position: relative;
+}
+.message:after{
+  content:'/ 50 words';
+  position: absolute;
+  bottom: 65px;
+  right: 25px;
+  color: #c4c4c4;
+  font-size: 17px;
+  line-height: 26px;
+}
+.message textarea{
+  width: 100%;
+  height: 137px;
+  border-radius: 4px;
+  border: 2px solid #e0e0e0;
+  background-color: #fdfdfd;
+  padding: 28px 25px;
+  margin-bottom: 45px;
+  color: #000000;
+  font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+
+
 
