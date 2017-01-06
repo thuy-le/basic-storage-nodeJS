@@ -3,3 +3,4 @@ typings
 /node_modules
 tmp/
 upload/
+.idea/
