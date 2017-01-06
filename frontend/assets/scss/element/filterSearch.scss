@@ -1,0 +1,43 @@
+.filterSearch{
+  padding:98px 83px 82px 75px;
+  background:#151515;
+  .filter{
+    line-height: 76px;
+    i{
+      color:#fff;
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 25px;
+    }
+    i:hover{
+      color:#2768F9;
+    }
+    span{
+      color: #ffffff;
+      font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+      font-size: 20px;
+      line-height: 44px;
+      display: inline-block;
+      margin-right: 43px;
+    }
+  }
+  .search{
+    position: relative;
+    input{
+      border-radius: 4px;
+      background-color: #ffffff;
+      border: none;
+      width: 530px;
+      display: inline-block;
+      padding: 27px 37px 27px 88px;
+      color: #adadad;
+      font-size: 24px;
+    }
+    i{
+      position: absolute;
+      top: 29px;
+      left: 37px;
+      font-size: 25px;
+    }
+  }
+}

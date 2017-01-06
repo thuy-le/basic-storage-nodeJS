@@ -1,0 +1,66 @@
+#petsMemorialPage{
+  background-color: #151515;
+  .memorialAnimal{
+    .listAnimal{
+      background-size: contain;
+      list-style: none;
+      background-repeat: no-repeat;
+      padding: 0;
+      background-position: center 50px;
+      li{
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+        height: 88px;
+        line-height: 88px;
+        padding: 0 50px;
+        cursor: pointer;
+        .animalName{
+          color: #ffffff;
+          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          font-size: 36px;
+          line-height: 44px;
+          display: inline-block;
+          width: 25%;
+        }
+        .description{
+          color: #ffffff;
+          font-size: 18px;
+          line-height: 24px;
+          display: inline-block;
+          width: 50%;
+        }
+        .dateOfDead{
+          color: #ffffff;
+          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          font-size: 18px;
+          line-height: 44px;
+          text-align: right;
+          display: inline-block;
+          width: -webkit-calc(25% - 8px);
+          width: -moz-calc(25% - 8px);
+          text-align: right;
+          width: calc(25% - 8px);
+          .dot{
+            width: 11px;
+            height: 11px;
+            border: 1px solid #ffffff;
+            background-color: #151515;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 27px;
+          }
+        }
+      }
+      li:hover{
+        background:#fc7171;
+      }
+      li:hover .dot{
+        background: #fff;
+      }
+    }
+  }
+  .loading{}
+  .partnership{
+    padding-bottom: 0;
+  }
+}
