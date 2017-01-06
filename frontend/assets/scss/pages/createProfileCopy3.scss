@@ -11,6 +11,7 @@
     margin-bottom: 89px;
   }
   .content{
+    position: relative;
     max-width: 834px;
     margin: auto;
     .item{
@@ -38,6 +39,24 @@
     }
     .item:nth-child(3n){
       margin-right: 0;
+    }
+    .btnStep{
+      top:350px;
+      img{
+        background-color: #232323;
+      }
+    }
+    .btnStep:hover img{
+      background: #d8d8d8;
+    }
+    .btnStep:after{
+      color:#fff;
+    }
+    .btnNextStep{
+      right:-150px;
+    }
+    .btnPrevStep{
+      left:-150px;
     }
   }
 }

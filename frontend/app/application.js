@@ -13,12 +13,12 @@ define([
             .when('/login', {templateUrl: '/templates/pages/login.html'})
             .when('/blog', {templateUrl: '/templates/pages/blog.html'})
             .when('/blog-article', {templateUrl: '/templates/pages/blogArticle.html'})
-            .when('/create-profile', {templateUrl: '/templates/pages/createProfile.html'})
-            .when('/create-profile-copy', {templateUrl: '/templates/pages/createProfileCopy.html'})
-            .when('/create-profile-copy-3', {templateUrl: '/templates/pages/createProfileCopy3.html'})
-            .when('/create-profile-copy-4', {templateUrl: '/templates/pages/createProfileCopy4.html'})
+            .when('/create-profile', {templateUrl: '/templates/pages/step/createProfile.html'})
+            .when('/create-profile-copy', {templateUrl: '/templates/pages/step/createProfileCopy.html'})
+            .when('/create-profile-copy-3', {templateUrl: '/templates/pages/step/createProfileCopy3.html'})
+            .when('/create-profile-copy-4', {templateUrl: '/templates/pages/step/createProfileCopy4.html'})
             .when('/about', {templateUrl: '/templates/pages/about.html'})
-            .when('/add-life-event', {templateUrl: '/templates/pages/addLifeEvent.html'})
+            .when('/add-life-event', {templateUrl: '/templates/pages/step/addLifeEvent.html'})
             .when('/', {templateUrl: '/templates/homepage.html'})
             .when('/contact', {templateUrl: '/templates/pages/contact.html'})
             .when('/pets-memorial', {templateUrl: '/templates/pages/petsMemorial.html'})
@@ -36,7 +36,8 @@ define([
         angularModules: ['ngRoute', 'ngMask', 'ui.bootstrap'],
         components: [
             'ui/MainController',
-            'ui/login/LoginController'
+            'ui/login/LoginController',
+            'ui/profile/step3/Step3Controller'
         ],
         angularRun: AngularRun
     });

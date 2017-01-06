@@ -89,6 +89,12 @@ requirejs.config({
         'ui/login/LoginModel',
         'ui/login/LoginView',
         'ui/login/LoginPresenter',
+
+        'ui/profile/step3/Step3Controller',
+        'ui/profile/step3/Step3Model',
+        'ui/profile/step3/Step3View',
+        'ui/profile/step3/Step3Presenter',
+
         'main'
     ]
 });
