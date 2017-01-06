@@ -1,19 +1,5 @@
 <main id="petsMemorialGridPage">
-    <section class="filterSearch">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 filter">
-                    <a href="javascript:" title="Filter"><i class="fi flaticon-filter-filled-tool-symbol"></i></a><span>Filter</span>
-                    <a href="javascript:" title="View More"><i class="fi flaticon-squares-gallery-grid-layout-interface-symbol"></i></a>
-                    <a href="javascript:" title="Grid"><i class="fi flaticon-list"></i></a>
-                </div>
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 search">
-                    <input type="text" placeholder="Search…">
-                    <i class="fi flaticon-search"></i>
-                </div>
-            </div>
-        </div>
-    </section>
+    <ng-include src="'./templates/element/filterSearch.html'"></ng-include>
     <section class="mansory">
         <div class="container-fluid">
             <div class="row">
@@ -98,25 +84,7 @@
             </div>
         </div>
     </section>
-    <section class="loading">
-        <div class="windows8">
-            <div class="wBall" id="wBall_1">
-                <div class="wInnerBall"></div>
-            </div>
-            <div class="wBall" id="wBall_2">
-                <div class="wInnerBall"></div>
-            </div>
-            <div class="wBall" id="wBall_3">
-                <div class="wInnerBall"></div>
-            </div>
-            <div class="wBall" id="wBall_4">
-                <div class="wInnerBall"></div>
-            </div>
-            <div class="wBall" id="wBall_5">
-                <div class="wInnerBall"></div>
-            </div>
-        </div>
-    </section>
+    <ng-include src="'./templates/element/loading.html'"></ng-include>
     <section class="partnership">
         <div class="container-fluid">
             <h2>In partnership with RSPCA</h2>
