@@ -84,6 +84,11 @@ requirejs.config({
         'ui/MainModel',
         'ui/MainView',
         'ui/MainPresenter',
+
+        'ui/login/LoginController',
+        'ui/login/LoginModel',
+        'ui/login/LoginView',
+        'ui/login/LoginPresenter',
         'main'
     ]
 });
