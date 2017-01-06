@@ -90,10 +90,10 @@ requirejs.config({
         'ui/login/LoginView',
         'ui/login/LoginPresenter',
 
-        'ui/profile/step3/Step2Controller',
-        'ui/profile/step3/Step2Model',
-        'ui/profile/step3/Step2View',
-        'ui/profile/step3/Step2Presenter',
+        'ui/profile/step3/Step3Controller',
+        'ui/profile/step3/Step3Model',
+        'ui/profile/step3/Step3View',
+        'ui/profile/step3/Step3Presenter',
 
         'main'
     ]

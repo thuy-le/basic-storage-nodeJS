@@ -36,7 +36,8 @@ define([
         angularModules: ['ngRoute', 'ngMask', 'ui.bootstrap'],
         components: [
             'ui/MainController',
-            'ui/login/LoginController'
+            'ui/login/LoginController',
+            'ui/profile/step3/Step3Controller'
         ],
         angularRun: AngularRun
     });

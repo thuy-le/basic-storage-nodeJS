@@ -23,6 +23,12 @@ define(function(require) {
 
     Step3View.prototype.initData = function(dto) {
         this.data.dto = dto;
+        this.fn.choosed = this.choosed.bind(this);
+        this.data.selected = 1;
+    };
+
+    Step3View.prototype.choosed = function(selected){
+        this.data.selected = selected;
     };
 
     Step3View.prototype._initFn = function() {};
