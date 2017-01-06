@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b122e13-eab8-40f4-ac75-29925cb7e392" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/animal-2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/animal-4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/animal-5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/assets/images/animal-6.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/element/filterSearch.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/element/filterSearch.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/general/mainStyle.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy3.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/createProfileCopy3.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/assets/scss/pages/petsMemorial.scss" afterPath="$PROJECT_DIR$/frontend/assets/scss/pages/petsMemorial.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" afterPath="$PROJECT_DIR$/frontend/build/sass/pets4ever.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/index-dev.html.tmpl" afterPath="$PROJECT_DIR$/frontend/templates/index-dev.html.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/navigation/bottom.html" afterPath="$PROJECT_DIR$/frontend/templates/navigation/bottom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/navigation/top.html" afterPath="$PROJECT_DIR$/frontend/templates/navigation/top.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy3.html" afterPath="$PROJECT_DIR$/frontend/templates/pages/createProfileCopy3.html" />
     </list>
     <ignored path="pets-forever.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -669,24 +655,24 @@
       <workItem from="1483452096658" duration="949000" />
       <workItem from="1483494139298" duration="25203000" />
       <workItem from="1483583178408" duration="17429000" />
-      <workItem from="1483667170397" duration="19791000" />
+      <workItem from="1483667170397" duration="20520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165602000" />
+    <option name="totallyTimeSpent" value="166331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22995462" sideWeight="0.49537036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22094926" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536825" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20877458" sideWeight="0.5046296" order="2" side_tool="true" content_ui="tabs" x="29" y="372" width="340" height="193" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
