@@ -18,11 +18,7 @@ define([
             .when('/create-profile-copy-3', {templateUrl: '/templates/pages/createProfileCopy3.html'})
             .when('/create-profile-copy-4', {templateUrl: '/templates/pages/createProfileCopy4.html'})
             .when('/about', {templateUrl: '/templates/pages/about.html'})
-<<<<<<< HEAD
-            .when('/addLife-event', {templateUrl: '/templates/pages/addLifeEvent.html'})
-=======
             .when('/add-life-event', {templateUrl: '/templates/pages/addLifeEvent.html'})
->>>>>>> dbb2a2d2a9df558b8b4274d79b82131d9a705009
             .when('/', {templateUrl: '/templates/homepage.html'})
             .when('/contact', {templateUrl: '/templates/pages/contact.html'})
             .when('/pets-memorial', {templateUrl: '/templates/pages/petsMemorial.html'})
