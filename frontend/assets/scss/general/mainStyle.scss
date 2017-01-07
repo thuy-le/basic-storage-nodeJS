@@ -24,6 +24,39 @@ select{
 body{
   font-family:'GTWalsheimProTrial-Light',sans-serif;
 }
+input[type="checkbox"]{
+  margin: 0;
+  margin-right:14px;
+  padding: 0;
+  -webkit-appearance: none;
+  background: #fff;
+  width: 25px;
+  height: 26px;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+  background-color: #33b7ff;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+input[type="checkbox"]:after{
+  content: '';
+  width: 5px;
+  height: 10px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  opacity: 0;
+  transform: rotate(45deg);
+}
+input[type="checkbox"]:checked{
+  outline: none;
+}
+input[type="checkbox"]:checked:after{
+  opacity: 1;
+}
 .category{
   display: inline-block;
   color: #ffffff;

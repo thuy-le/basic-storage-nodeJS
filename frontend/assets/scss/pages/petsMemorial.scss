@@ -62,4 +62,92 @@
   .partnership{
     padding-bottom: 0;
   }
+  #loginPopup{
+    form{
+      background-color: #f1f1f1;
+      max-width: 624px;
+      padding: 45px 70px 51px 70px;
+      margin:140px auto;
+      > i{
+        font-size: 25px;
+        display: block;
+        text-align: center;
+      }
+      h3{
+        color: #000000;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        margin: 22px auto 34px;
+        max-width: 478px;
+      }
+      > a{
+        display: inline-block;
+        color: #ffffff;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 22px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 100px;
+        background-color: #3b5998;
+        border:3px solid #3b5998;
+        padding:17px 116px;
+        i{
+          display: inline-block;
+          margin-right:16px;
+        }
+      }
+      > a:hover{
+        background: transparent;
+        color:#3b5998;
+      }
+      span{
+        color:#000;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size:20px;
+        line-height: 30px;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      input[type="text"],input[type="password"]{
+        border-radius: 4px;
+        border: 2px solid #e0e0e0;
+        background-color: #fdfdfd;
+        width: 100%;
+        padding:18px 20px;
+        margin-bottom: 16px;
+      }
+      label{
+        color: #8a8a8a;
+        font-size: 13px;
+        line-height: 26px;
+        position: relative;
+        top:-8px;
+      }
+      .button{
+        margin-top: 16px;
+        a{
+          display: inline-block;
+          width: 230px;
+          height:46px;
+          border-radius: 100px;
+          border: 3px solid #828282;
+          background: transparent;
+          text-align: center;
+          line-height: 40px;
+          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          font-size:20px;
+          color:#000;
+        }
+        a:hover{
+          border-color: #000;
+          background: #000;
+          color:#fff;
+        }
+      }
+    }
+  }
 }

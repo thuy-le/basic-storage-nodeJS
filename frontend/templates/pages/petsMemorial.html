@@ -3,48 +3,48 @@
     <section class="memorialAnimal">
         <div class="container">
             <ul class="listAnimal" style="background-image: url(/assets/images/bg-memorial.png);">
-                1``5<li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead"><span class="dot"></span>Date of death</h6>
                     <span class="clearfix"></span>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName ">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead"><span class="dot"></span>Date of death</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead "><span class="dot"></span>Date of death</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName ">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead "><span class="dot"></span>Date of death</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName ">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead "><span class="dot"></span>Date of death</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName ">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead "><span class="dot"></span>Date of death</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName ">Ginger</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead "><span class="dot"></span>30th November</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName ">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead"><span class="dot"></span>Date of death</h6>
                 </li>
-                <li>
+                <li data-toggle="modal" data-target="#loginPopup">
                     <h3 class="animalName">Name of pet</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h6 class="dateOfDead"><span class="dot"></span>Date of death</h6>
@@ -60,4 +60,27 @@
             <img class="img-responsive" src="assets/images/login_page.png" alt="">
         </div>
     </section>
+    <section class="modal fade" id="loginPopup" role="dialog">
+        <form action="">
+            <i class="fi flaticon-closed-padlock"></i>
+            <h3>Please login or create an account to view more memorials.</h3>
+            <a href="javascript:" title="Login with Facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Login with Facebook</a>
+            <span>OR</span>
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="checkbox"><label>Remember me</label>
+            <div class="button">
+                <a href="#/create-profile" title="Get Started">Get Started</a>
+                <a href="#/login" title="Login">Login</a>
+            </div>
+        </form>
+    </section>
 </main>
+<script>
+    $(document).ready(function(){
+        $('.button a').click(function(){
+            $('.modal-backdrop').css('display','none');
+            $('.modal-open').removeClass();
+        });
+    });
+</script>
