@@ -9,7 +9,7 @@ define([
             requireBase: true
         });
 
-        $routeProvider
+        $routeProvider               
             .when('/login', {templateUrl: '/templates/pages/login.html'})
             .when('/blog', {templateUrl: '/templates/pages/blog.html'})
             .when('/blog-article', {templateUrl: '/templates/pages/blogArticle.html'})

@@ -14,7 +14,6 @@
     }
     .chooseVersion{
       position: relative;
-      margin-bottom: 115px;
       margin-top:115px;
       .btnStep{
         top:135px;
@@ -27,6 +26,9 @@
           background: #d8d8d8;
         }
       }
+      .wrapper{
+        height:450px;
+      }
       .btnPrevStep{
         left: -80px;
       }
@@ -37,17 +39,25 @@
         color:#fff;
       }
       .general{
-        padding-top: 90px;
-        padding-bottom: 45px;
+        position: relative;
+        top:0;
+        height: 303px;
         width: 361px;
         background: #fff;
         text-align: center;
+        -webkit-transition: all 1s;
+        transition: all 1s;
         span{
           font-size:16px;
           display: inline-block;
-          margin-bottom: 105px;
+          position: absolute;
+          left: 0;
+          right:0;
+          top:90px;
           color:#a3a3a3;
           font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+          -webkit-transition: all 1s;
+          transition: all 1s;
         }
         button{
           font-family: 'GTWalsheimProTrial-Bold',sans-serif;
@@ -60,6 +70,10 @@
           width: 231px;
           height: 48px;
           margin: auto;
+          position: absolute;
+          left:0;
+          right:0;
+          bottom:45px;
         }
         button:hover{
           background: #828282;
@@ -70,9 +84,10 @@
         margin: 0;
         width: 435px;
         height: 365px;
-        margin-top: -57px;
-        -webkit-transition: all 2s;
-        transition: all 1s;
+        top:-30px;
+      }
+      .general:hover span{
+        top:140px;
       }
       .basic{
         margin-left: 45px;
