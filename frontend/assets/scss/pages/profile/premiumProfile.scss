@@ -1,0 +1,274 @@
+#premiumProfile{
+  .uploadBtn{
+    display: inline-block;
+    position: relative;
+    border-radius: 100px;
+    background-color: #ffffff;
+    opacity: 0.77;
+    width: 194px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    label{
+      color: #000000;
+      font-size: 11px;
+      display: inline-block;
+      cursor: pointer;
+      i{
+        display: inline-block;
+        margin-right: 10px;
+        font-size:13px;
+      }
+    }
+    input{
+      display: none;
+    }
+  }
+  .coverImg{
+    height:307px;
+    padding-top: 30px;
+    padding-left: 58px;
+    position: relative;
+  }
+  .tabSection{
+    position: relative;
+    text-align: right;
+    .uploadProfileImg{
+      position: absolute;
+      bottom: -20px;
+      left: 210px;
+      .parent{
+        position:relative;
+        display: inline-block;
+        img{
+          border: 12px solid #ffffff;
+          border-radius: 50%;
+        }
+        .uploadCoverImg{
+          position: absolute;
+          top: 45%;
+          left: 18%;
+        }
+      }
+    }
+    .tabBar{
+      height: 81px;
+      background-color: #f7f7f7;
+      line-height: 81px;
+      margin-bottom:40px;
+      .loveClick{
+        margin-right:40px;
+        display: inline-block;
+        i{
+          width: 35px;
+          height: 35px;
+          border-radius: 100px;
+          background-color: #ff6463;
+          text-align: center;
+          line-height: 35px;
+          color: #fff;
+          display: inline-block;
+          margin-right: 10px;
+        }
+        span{
+          color: #000000;
+          font-size: 17px;
+          line-height: 20px;
+          display: inline-block;
+          font-family:'GTWalsheimProTrial-Regular',sans-serif;
+        }
+      }
+      .loveRecieve{
+        margin-right:60px;
+        display: inline-block;
+        width: 101px;
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        border-radius: 100px;
+        background-color: #ff6463;
+        i{
+          color: #fff;
+          display: inline-block;
+          margin-right:10px;
+        }
+        span{
+          color: #ffffff;
+          font-size: 17px;
+          line-height: 20px;
+        }
+      }
+      .tabList{
+        display: inline-block;
+        a{
+          display: inline-block;
+          width: 100px;
+          text-align: center;
+          border: 1px solid red;
+          color: #000000;
+          font-size: 17px;
+          line-height: 20px;
+          font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+        }
+        a:last-child{
+          color:#000;
+        }
+      }
+    }
+    .social{
+      text-align: right;
+      margin-right: 80px;
+      a{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 27px;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid;
+        margin-right: 6px;
+        color:#fff;
+      }
+
+      a:first-child{
+        background-image: linear-gradient(to top, #e09b3d 0%, #c74c4d 30%, #c21975 66%, #7024c4 100%);
+        border-color: #A51C91;
+      }
+      a:nth-child(2){
+        background: #55acee;
+        border-color: #55acee;
+      }
+      a:nth-child(3){
+        background: #3b5998;
+        border-color: #3b5998;
+      }
+
+      a:hover{
+        background: transparent;
+      }
+      a:hover i{
+        color: #2768F8;
+      }
+      a:last-child{
+        border-radius: 100px;
+        background-color: #000000;
+        width: 90px;
+        line-height: 26px;
+        height: 31px;
+        color:#fff;
+        i{
+          display: inline-block;
+          margin-right:10px;
+        }
+      }
+      a:last-child:hover{
+        color: #2768F8;
+        background: transparent;
+        border-color: #000;
+      }
+    }
+  }
+  .contentTab{
+    padding:95px 210px 117px 210px;
+    .tab-pane{
+      h1{
+        color: #000000;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 36px;
+        line-height: 44px;
+      }
+      .left{
+        width: 65%;
+        display: inline-block;
+        padding-right:75px;
+        p{
+          font-size: 17px;
+          line-height: 26px;
+          color: #696969;
+        }
+        a{
+          font-size: 17px;
+          line-height: 26px;
+          color: #33b7ff;
+        }
+        h3{
+          color: #000000;
+          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          font-size: 20px;
+          line-height: 44px;
+        }
+        .left-child{
+          width: 35%;
+          h6{
+            color: #696969;
+            font-size: 17px;
+            line-height: 26px;
+            display: inline-block;
+            margin:0;
+            margin-bottom: 20px;
+          }
+          span{
+            color: #000000;
+            font-size: 17px;
+            line-height: 26px;
+          }
+        }
+        .right-child{
+          width:65%;
+          vertical-align: top;
+          h6{
+            color: #696969;
+            font-size: 17px;
+            line-height: 26px;
+            display: inline-block;
+            margin:0;
+            margin-bottom: 20px;
+          }
+          span{
+            color: #000000;
+            font-size: 17px;
+            line-height: 26px;
+          }
+          a{
+            color: #33b7ff;
+            font-size: 17px;
+            line-height: 20px;
+          }
+        }
+      }
+      .right{
+        width:26%;
+        display: inline-block;
+        vertical-align: top;
+        h3{
+          color: #000000;
+          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          font-size: 20px;
+          line-height: 30px;
+          margin: 0;
+        }
+        a{
+          color: #33b7ff;
+          font-size: 17px;
+          line-height: 20px;
+          display: block;
+          margin-bottom: 16px;
+          margin-top:23px;
+        }
+        h6{
+          color: #696969;
+          font-size: 17px;
+          line-height: 26px;
+          display: inline-block;
+          margin:0;
+        }
+        span{
+          color: #000000;
+          font-size: 17px;
+          line-height: 26px;
+          width: 80%;
+        }
+      }
+    }
+  }
+}
