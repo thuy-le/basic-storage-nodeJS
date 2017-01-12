@@ -1,0 +1,136 @@
+#premiumProfileTab{
+  .uploadImg{
+    position: absolute;
+    top:30px;
+    left:58px;
+    label{
+      color: #000000;
+      font-size: 11px;
+      width: 194px;
+      height: 46px;
+      line-height: 46px;
+      border-radius: 100px;
+      background-color: #ffffff;
+      opacity: 0.77;
+      text-align: center;
+      cursor: pointer;
+      i{
+        display: inline-block;
+        margin-right: 9px;
+      }
+    }
+    input.upload{
+      display: none;
+    }
+  }
+  .coverImage{
+    position: relative;
+    .uploadImg{
+      top:30px;
+      left:58px;
+    }
+  }
+  .navTab{
+    height: 81px;
+    background-color: #f7f7f7;
+    line-height: 81px;
+    .left{}
+    .center{
+      a{
+        display: inline-block;
+        margin-right: 30px;
+        color: #ffffff;
+        font-size: 17px;
+        line-height: 34px;
+        width: 101px;
+        height: 34px;
+        border-radius: 100px;
+        background-color: #ff6463;
+        text-align: center;
+        margin-left: 30px;
+        i{
+            margin-right: 15px;
+        }
+      }
+      div{
+        display: inline-block;
+        color: #000000;
+        font-size: 17px;
+        font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+        line-height: 20px;
+        i{
+          width: 35px;
+          height: 34px;
+          border-radius: 100px;
+          background-color: #ff6463;
+          line-height: 35px;
+          text-align: center;
+          color: #fff;
+          margin-right: 20px;
+        }
+      }
+    }
+    .right{}
+  }
+  .tabContent{
+    h1{
+      color: #000000;
+      font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+      font-size: 36px;
+      line-height: 44px;
+    }
+    .leftCol{
+      width: 60%;
+      display: inline-block;
+      p{
+        font-size: 17px;
+        line-height: 26px;
+        color: #696969;
+        a{
+          display: block;
+          color: #33b7ff;
+        }
+      }
+      h3{
+        color: #000000;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 20px;
+        line-height: 44px;
+      }
+      .leftColChild{
+        width: 30%;
+        float: left;
+        h6{
+          color: #696969;
+          font-size: 17px;
+          line-height: 26px;
+          span{
+            color: #000000;
+          }
+        }
+      }
+      .rightColChild{
+        width: 70%;
+        float: left;
+        h6{
+          color: #696969;
+          font-size: 17px;
+          line-height: 26px;
+          span{
+            color: #000000;
+          }
+        }
+        a{
+          color: #33b7ff;
+          font-size: 17px;
+          line-height: 20px;
+        }
+      }
+    }
+    .rightCol{
+      width: 39%;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}

@@ -1,19 +1,75 @@
 <main id="premiumProfileTab">
     <section class="coverImage">
         <img src="/assets/images/header-premium-profile.png" class="img-responsive" alt="">
+        <div class="uploadImg">
+            <label for="uploadCover"><i class="fa fa-camera" aria-hidden="true"></i>Update Cover Picture</label>
+            <input type="file" id="uploadCover" class="upload">
+        </div>
     </section>
-    <section class="tabProfile">
+    <section class="navTab">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <img src="/assets/images/cat-head.png" alt="" class="img-responsive">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 left">
+
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <a href="javascript:" title="like" class="likeBtn"><i class="fa fa-heart" aria-hidden="true"></i>2,234</a>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 center">
                     <div><i class="fa fa-heart" aria-hidden="true"></i>Pay your respects</div>
+                    <a href="javascript:" title="like" class=""><i class="fa fa-heart" aria-hidden="true"></i>2,234</a>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12"></div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 right">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#about">About</a></li>
+                        <li><a data-toggle="tab" href="#photos">Photos</a></li>
+                        <li><a data-toggle="tab" href="#videos">Videos</a></li>
+                    </ul>
+                </div>
             </div>
+        </div>
+    </section>
+    <section class="social"></section>
+    <section class="tabContent">
+        <div class="container">
+        <img src="/assets/images/cat-head.png" alt="" class="img-responsive" style="">
+        <div class="uploadImg">
+            <label for="uploadProfile"><i class="fa fa-camera" aria-hidden="true"></i>Update Cover Picture</label>
+            <input type="file" id="uploadProfile" class="upload">
+        </div>
+        <div class="tab-content">
+            <div id="about" class="tab-pane fade in active">
+                <h1>Ginger</h1>
+                <div class="leftCol">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur elit et lacus lacinia, et pellentesque mi suscipit. Pellentesque finibus, velit ut ullamcorper pretium, massa…
+                        <a href="javascript:" title="Read more">Read More</a></p>
+                    <h3>Stats:</h3>
+                    <div class="leftColChild">
+                        <h6>Name: <span>Ginger</span></h6>
+                        <h6>Born: <span>23/11/2003</span></h6>
+                        <h6>Gender: <span>Female</span></h6>
+                        <h6>Breed: <span>Maine Coon</span></h6>
+                        <h6>Nickname: <span>Gingie</span></h6>
+                    </div>
+                    <div class="rightColChild">
+                        <h6>Favourite Toy: <span>Cat Scratcher</span></h6>
+                        <h6>BHabits: <span>Sleeping on face, cuddling, scratching</span></h6>
+                        <h6>Characteristics: <span>Loving, Affectionate, Moody</span></h6>
+                        <h6>BFavourite Food: <span>Purina One</span></h6>
+                        <a href="javascript:" title="+ Add more">+ Add more</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="rightCol">
+                    <h3>Life Events:</h3>
+                    <a href="javascript:" title="Add a life event">+ Add a life event</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div id="photos" class="tab-pane fade">
+                <h2>Photos</h2>
+            </div>
+            <div id="videos" class="tab-pane fade">
+                <h2>Videos</h2>
+            </div>
+        </div>
         </div>
     </section>
 </main>
