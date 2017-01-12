@@ -94,6 +94,7 @@ requirejs.config({
         'ui/profile/step3/Step3Model',
         'ui/profile/step3/Step3View',
         'ui/profile/step3/Step3Presenter',
+        //CMVP-SCRIPT-PLACEHOLDER
 
         'main'
     ]
