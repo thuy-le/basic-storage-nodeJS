@@ -82,16 +82,16 @@
         border: 2px solid;
         margin-right: 6px;
         &:first-child{
-           background:#3b5998;
-           border-color:#3b5998 ;
+          background-image: linear-gradient(to top, #e09b3d 0%, #c74c4d 30%, #c21975 66%, #7024c4 100%);
+          border-color: #A51C91;
          }
         &:nth-child(2){
-          background:#55acee;
-          border-color:#55acee;
+          background: #55acee;
+          border-color: #55acee;
         }
         &:nth-child(3){
-          background-image: linear-gradient(to top, #e09b3d 0%, #c74c4d 30%, #c21975 66%, #7024c4 100%);
-          border-color:#A51C91;
+          background: #3b5998;
+          border-color: #3b5998;
         }
         &:last-child{
           color: #ffffff;
@@ -305,170 +305,6 @@
             max-width: 196px;
             margin:0;
           }
-        }
-      }
-    }
-  }
-  .comment{
-    background-color: #fafafb;
-    padding-top: 80px;
-    padding-bottom: 90px;
-    span{
-      color: #656565;
-      font-size: 14px;
-      letter-spacing: 2px;
-      line-height: 44px;
-      text-transform: uppercase;
-    }
-    textarea{
-      width: 100%;
-      border-radius: 4px;
-      background-color: #fdfdfd;
-      padding:25px;
-      margin-bottom: 16px;
-    }
-    .btnComment{
-      text-align: right;
-      > a{
-        display: inline-block;
-        width: 94px;
-        height: 31px;
-        line-height: 24px;
-        border-radius: 100px;
-        border: 3px solid #000000;
-        background: #000;
-        text-align: center;
-        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-        color: #fff;
-        margin-right: 8px;
-      }
-      > a:hover{
-        background: transparent;
-        color: #000;
-      }
-
-      .dropdown{
-        display: inline-block;
-        > a{
-          display: inline-block;
-          width: 33px;
-          height: 33px;
-          line-height: 31px;
-          background-color: #3236ad;
-          color: #fff;
-          text-align: center;
-          border-radius: 50%;
-          border: 2px solid #3236ad;
-        }
-        > a:hover{
-          background: transparent;
-          i{
-            color:#3236ad;
-          }
-        }
-        .sticker{
-          overflow-y: scroll;
-          width: 393px;
-          height: 452px;
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-          border: 1px solid #d8d8d8;
-          background-color: #ffffff;
-          .colImg{
-            display: inline-block;
-            width: 32%;
-            text-align: center;
-            margin: 25px 0;
-            img{
-              width: 65px;
-              height: auto;
-              cursor: pointer;
-              animation: all 0.5s;
-            }
-            img:hover{
-              transform: scale(1.2);
-            }
-          }
-        }
-        .dropdown-menu{
-          left: inherit;
-          right:-35px;
-          top:50px;
-          border-radius: 7px;
-        }
-      }
-      .open{
-        &:after{
-          content:'';
-          display: inline-block;
-          width: 20px;
-          height:20px;
-          background: #fff;
-          transform:rotate(45deg);
-          position: absolute;
-          top:42px;
-          right:5px;
-          z-index: 9999;
-          border: 1px solid #d8d8d8;
-          border-right: 0;
-          border-bottom: 0;
-        }
-      }
-    }
-    .contentComment{
-      margin-top:43px;
-      ul{
-        list-style: none;
-        background: #fff;
-        padding:0;
-        li{
-          padding:35px;
-          margin: 0 30px;
-          background: #fff;
-          border-bottom: 1px solid #e5e5e5;
-          .logo{
-            vertical-align: top;
-            margin-right:27px;
-            display: inline-block;
-            position: relative;
-            top: 25px;
-            .notImage{
-              display: inline-block;
-              width: 43px;
-              height: 43px;
-              border-radius: 50%;
-              background: #d8d8d8;
-            }
-          }
-          .content{
-            display: inline-block;
-            h5{
-              margin:0 15px 0 0;
-              color: #000000;
-              font-family:'GTWalsheimProTrial-Regular',sans-serif;
-              font-size: 15px;
-              line-height: 26px;
-              display: inline-block;
-            }
-            span{
-              display: inline-block;
-              color: #7f7f7f;
-              font-size: 13px;
-              line-height: 26px;
-              text-transform: none;
-            }
-            p{
-              color: #606060;
-              font-size: 15px;
-              line-height: 23px;
-              max-width: 600px;
-            }
-          }
-          .imgSticker{
-            float: right;
-          }
-        }
-        li:last-child{
-          border:0;
         }
       }
     }
