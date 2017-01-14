@@ -35,6 +35,8 @@
     }
     label:hover{
       transform: scale(1.2);
+      background: #000;
+      color:#fff;
     }
     input.upload{
       display: none;
@@ -52,6 +54,7 @@
     .uploadProfile{
       position: absolute;
       bottom: -170px;
+      z-index: 2;
       img{
         width:280px;
         height:280px;
@@ -114,6 +117,7 @@
     }
   }
   .navTab{
+    position: relative;
     height: 81px;
     background-color: #f7f7f7;
     line-height: 81px;
@@ -153,7 +157,43 @@
         }
       }
     }
-    .right{}
+    .right{
+      position: absolute;
+      right:0;
+      padding: 0;
+      ul{
+        border: 0;
+        text-align: right;
+        li{
+          transition: all .5s;
+          border-top:3px solid transparent;
+          float: none;
+          display: inline-block;
+          a{
+            background-color: transparent;
+            padding: 0 30px;
+            color: #000000;
+            font-family:'GTWalsheimProTrial-Regular',sans-serif;
+            font-size: 17px;
+            line-height: 78px;
+            margin-right:0;
+            border: 0;
+          }
+          a:hover{
+            color:#FF6463;
+          }
+        }
+        li:last-child{
+          background: #000;
+          a{
+            color: #fff;
+          }
+        }
+        li.active{
+          border-color:#000;
+        }
+      }
+    }
   }
   .tabContent{
     padding-bottom: 115px;
