@@ -1,274 +1,221 @@
 #premiumProfile{
-  .uploadBtn{
-    display: inline-block;
-    position: relative;
-    border-radius: 100px;
-    background-color: #ffffff;
-    opacity: 0.77;
-    width: 194px;
-    height: 46px;
-    line-height: 46px;
-    text-align: center;
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #A9A9A9;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+  }
+  .uploadImg{
     label{
       color: #000000;
       font-size: 11px;
-      display: inline-block;
+      width: 194px;
+      height: 46px;
+      line-height: 46px;
+      border-radius: 100px;
+      background-color: #ffffff;
+      opacity: 0.77;
+      text-align: center;
       cursor: pointer;
+      -webkit-transition: all .5s;
+      transition: all .5s;
       i{
         display: inline-block;
-        margin-right: 10px;
-        font-size:13px;
+        margin-right: 9px;
+      }
+      &:hover{
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        background: #000;
+        color: #fff;
       }
     }
     input{
       display: none;
     }
   }
-  .coverImg{
-    height:307px;
-    padding-top: 30px;
-    padding-left: 58px;
+  .coverImage{
     position: relative;
-  }
-  .tabSection{
-    position: relative;
-    text-align: right;
-    .uploadProfileImg{
+    img{}
+    .uploadCover{
       position: absolute;
-      bottom: -20px;
-      left: 210px;
-      .parent{
-        position:relative;
+      top:30px;
+      left:58px;
+    }
+  }
+  .updateProfileSection{
+    .left{
+      .uploadImg{
         display: inline-block;
-        img{
-          border: 12px solid #ffffff;
-          border-radius: 50%;
-        }
-        .uploadCoverImg{
+        position: relative;
+        img{}
+        label{
           position: absolute;
-          top: 45%;
-          left: 18%;
+          left:15%;
+          top:45%;
         }
+        input{}
       }
     }
-    .tabBar{
-      height: 81px;
-      background-color: #f7f7f7;
-      line-height: 81px;
-      margin-bottom:40px;
-      .loveClick{
-        margin-right:40px;
-        display: inline-block;
-        i{
-          width: 35px;
-          height: 35px;
+    .right{
+      .socialBar{
+        div{
+          display: inline-block;
+          color: #000000;
+          font-size: 17px;
+          font-family: 'GTWalsheimProTrial-Regular',sans-serif;
+          i{
+            width: 35px;
+            height: 34px;
+            border-radius: 100px;
+            background-color: #ff6463;
+            line-height: 35px;
+            text-align: center;
+            color: #fff;
+            margin-right: 20px;
+          }
+        }
+        a{
+          display: inline-block;
+          margin-right: 30px;
+          color: #ffffff;
+          font-size: 17px;
+          line-height: 34px;
+          width: 101px;
+          height: 34px;
           border-radius: 100px;
           background-color: #ff6463;
           text-align: center;
-          line-height: 35px;
-          color: #fff;
-          display: inline-block;
-          margin-right: 10px;
+          margin-left: 30px;
+          i{
+            margin-right: 15px;
+          }
         }
-        span{
-          color: #000000;
-          font-size: 17px;
-          line-height: 20px;
-          display: inline-block;
-          font-family:'GTWalsheimProTrial-Regular',sans-serif;
-        }
-      }
-      .loveRecieve{
-        margin-right:60px;
-        display: inline-block;
-        width: 101px;
-        height: 34px;
-        line-height: 34px;
-        text-align: center;
-        border-radius: 100px;
-        background-color: #ff6463;
-        i{
-          color: #fff;
-          display: inline-block;
-          margin-right:10px;
-        }
-        span{
-          color: #ffffff;
-          font-size: 17px;
-          line-height: 20px;
-        }
-      }
-      .tabList{
-        display: inline-block;
-        a{
-          display: inline-block;
-          width: 100px;
-          text-align: center;
-          border: 1px solid red;
-          color: #000000;
-          font-size: 17px;
-          line-height: 20px;
-          font-family: 'GTWalsheimProTrial-Regular',sans-serif;
-        }
-        a:last-child{
-          color:#000;
-        }
-      }
-    }
-    .social{
-      text-align: right;
-      margin-right: 80px;
-      a{
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        line-height: 27px;
-        text-align: center;
-        border-radius: 50%;
-        border: 2px solid;
-        margin-right: 6px;
-        color:#fff;
-      }
-
-      a:first-child{
-        background-image: linear-gradient(to top, #e09b3d 0%, #c74c4d 30%, #c21975 66%, #7024c4 100%);
-        border-color: #A51C91;
-      }
-      a:nth-child(2){
-        background: #55acee;
-        border-color: #55acee;
-      }
-      a:nth-child(3){
-        background: #3b5998;
-        border-color: #3b5998;
-      }
-
-      a:hover{
-        background: transparent;
-      }
-      a:hover i{
-        color: #2768F8;
-      }
-      a:last-child{
-        border-radius: 100px;
-        background-color: #000000;
-        width: 90px;
-        line-height: 26px;
-        height: 31px;
-        color:#fff;
-        i{
-          display: inline-block;
-          margin-right:10px;
-        }
-      }
-      a:last-child:hover{
-        color: #2768F8;
-        background: transparent;
-        border-color: #000;
       }
     }
   }
-  .contentTab{
-    padding:95px 210px 117px 210px;
-    .tab-pane{
-      h1{
-        color: #000000;
+  .stats{
+    padding:100px 0 130px 0;
+    background-color: #333333;
+    .leftCol{
+      width: 60%;
+      display: inline-block;
+      h3{
+        color: #fff;
         font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 0 8px 0;
       }
-      .left{
-        width: 65%;
-        display: inline-block;
-        padding-right:75px;
-        p{
+      .leftColChild{
+        width: 30%;
+        float: left;
+        h6{
+          color: #d3d3d3;
           font-size: 17px;
           line-height: 26px;
-          color: #696969;
-        }
-        a{
-          font-size: 17px;
-          line-height: 26px;
-          color: #33b7ff;
-        }
-        h3{
-          color: #000000;
-          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-          font-size: 20px;
-          line-height: 44px;
-        }
-        .left-child{
-          width: 35%;
-          h6{
-            color: #696969;
-            font-size: 17px;
-            line-height: 26px;
-            display: inline-block;
-            margin:0;
-            margin-bottom: 20px;
-          }
           span{
-            color: #000000;
-            font-size: 17px;
-            line-height: 26px;
-          }
-        }
-        .right-child{
-          width:65%;
-          vertical-align: top;
-          h6{
-            color: #696969;
-            font-size: 17px;
-            line-height: 26px;
-            display: inline-block;
-            margin:0;
-            margin-bottom: 20px;
-          }
-          span{
-            color: #000000;
-            font-size: 17px;
-            line-height: 26px;
-          }
-          a{
-            color: #33b7ff;
-            font-size: 17px;
-            line-height: 20px;
+            color: #a3a3a3;
           }
         }
       }
-      .right{
-        width:26%;
-        display: inline-block;
-        vertical-align: top;
-        h3{
-          color: #000000;
-          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-          font-size: 20px;
-          line-height: 30px;
-          margin: 0;
+      .rightColChild{
+        width: 70%;
+        float: left;
+        h6{
+          color: #d3d3d3;
+          font-size: 17px;
+          line-height: 26px;
+          span{
+            color: #a3a3a3;
+          }
         }
         a{
+          display: inline-block;
           color: #33b7ff;
           font-size: 17px;
           line-height: 20px;
-          display: block;
-          margin-bottom: 16px;
-          margin-top:23px;
-        }
-        h6{
-          color: #696969;
-          font-size: 17px;
-          line-height: 26px;
-          display: inline-block;
-          margin:0;
-        }
-        span{
-          color: #000000;
-          font-size: 17px;
-          line-height: 26px;
-          width: 80%;
+          &:hover{
+            transform: scale(1.2);
+            color:#2666F8;
+          }
         }
       }
     }
+    .rightCol{
+      width: 39%;
+      display: inline-block;
+      vertical-align: top;
+      h3{
+        color: #fff;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 0 23px 0;
+      }
+      a{
+        display: inline-block;
+        color: #33b7ff;
+        font-size: 17px;
+        line-height: 20px;
+      }
+      a:hover{
+        transform: scale(1.2);
+        color: #2666F8;
+      }
+      ul.listEvent{
+        list-style: none;
+        padding: 0;
+        margin-top:16px;
+        li{
+          font-size: 17px;
+          line-height: 26px;
+          margin-bottom:16px;
+          span{
+            color: #d3d3d3;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+          }
+          p{
+            display: inline-block;
+            color: #a3a3a3;
+            max-width: 196px;
+            margin:0;
+          }
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .photoAndVideo{
+    .photo{
+      h3{}
+      .imgSection{
+        .left{
+          .smallWrapper{
+            .smallImage{}
+          }
+        }
+        .right{
+          .largeImage{}
+          .smallWrapper{
+            .smallImage{}
+          }
+        }
+      }
+    }
+
   }
 }

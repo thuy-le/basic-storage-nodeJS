@@ -1,90 +1,95 @@
 <main id="premiumProfile">
-    <section class="coverImg" style="background-image: url('/assets/images/header-premium-profile.png');">
-        <div class="uploadCoverImg uploadBtn">
-            <label for="uploadCoverImg"><i class="fa fa-camera" aria-hidden="true"></i>Update Cover Picture</label>
-            <input type="file" id="uploadCoverImg">
+    <section class="coverImage">
+        <img src="/assets/images/header-premium-profile.png" class="img-responsive" alt="">
+        <div class="uploadImg uploadCover">
+            <label for="uploadCover"><i class="fa fa-camera" aria-hidden="true"></i>Update Cover Picture</label>
+            <input type="file" id="uploadCover" class="upload">
         </div>
     </section>
-    <section class="tabSection">
-        <div class="uploadProfileImg">
-            <div class="parent">
-                <img src="/assets/images/cat-head.png" alt="">
-                <div class="uploadCoverImg uploadBtn">
-                    <label for="uploadProfileImg"><i class="fa fa-camera" aria-hidden="true"></i>Update Profile Picture</label>
-                    <input type="file" id="uploadProfileImg">
+    <section class="updateProfileSection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 left">
+                    <div class="uploadImg">
+                        <img src="/assets/images/cat-head.png" alt="" class="img-responsive" style="">
+                        <label for="uploadProfile"><i class="fa fa-camera" aria-hidden="true"></i>Update Profile Picture</label>
+                        <input type="file" id="uploadProfile" class="upload">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 right">
+                    <div class="socialBar">
+                        <div><i class="fa fa-heart" aria-hidden="true"></i>Pay your respects</div>
+                        <a href="javascript:" title="like" class=""><i class="fa fa-heart" aria-hidden="true"></i>2,234</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="tabBar">
-            <div class="loveClick">
-                <i class="fa fa-heart" aria-hidden="true"></i><span>Pay your respects</span>
-            </div>
-            <div class="loveRecieve">
-                <i class="fa fa-heart" aria-hidden="true"></i><span>2,234</span>
-            </div>
-            <div class="tabList nav" role="tablist">
-                <a aria-controls="about" role="tab" data-toggle="tab" href="#about" title="About">About</a>
-                <a aria-controls="photos" role="tab" data-toggle="tab" href="#photos" title="Photos">Photos</a>
-                <a aria-controls="videos" role="tab" data-toggle="tab" href="#videos" title="Videos">Videos</a>
-                <a href="javascript:" title="Owner">Owner</a>
-            </div>
-        </div>
-        <div class="social">
-            <a href="javascript:" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="javascript:" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="javascript:" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="javascript:" title="Share"><i class="fa fa-share-square-o" aria-hidden="true"></i>Share</a>
-        </div>
     </section>
-    <section class="contentTab">
-        <div class="tab-content">
-            <div id="about" class="tab-pane fade">
-                <h1>Ginger</h1>
-                <div class="left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur elit et lacus lacinia, et pellentesque mi suscipit. Pellentesque finibus, velit ut ullamcorper pretium, massa…</p>
-                    <a href="javascript:" title="Read More">Read More</a>
+    <section class="stats">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 leftCol">
                     <h3>Stats:</h3>
-                    <div class="left-child pull-left">
-                        <div><h6>Name:</h6><span>Ginger</span></div>
-                        <div><h6>Born:</h6><span>23/11/2003</span></div>
-                        <div><h6>Gender:</h6><span>Female</span></div>
-                        <div><h6>Breed:</h6><span>Maine Coon</span></div>
-                        <div><h6>Nickname:</h6><span>Gingie</span></div>
+                    <div class="leftColChild">
+                        <h6>Name: <span>Ginger</span></h6>
+                        <h6>Born: <span>23/11/2003</span></h6>
+                        <h6>Gender: <span>Female</span></h6>
+                        <h6>Breed: <span>Maine Coon</span></h6>
+                        <h6>Nickname: <span>Gingie</span></h6>
                     </div>
-                    <div class="right-child pull-right">
-                        <div><h6>Favourite Toy:</h6><span>Cat Scratcher</span></div>
-                        <div><h6>Habits:</h6><span>Sleeping on face, cuddling, scratching</span></div>
-                        <div><h6>Characteristics:</h6><span>Loving, Affectionate, Moody</span></div>
-                        <div><h6>Favourite Food:</h6><span>Purina One</span></div>
-                        <a href="javascript:" title="Add more">+ Add more</a>
+                    <div class="rightColChild">
+                        <h6>Favourite Toy: <span>Cat Scratcher</span></h6>
+                        <h6>BHabits: <span>Sleeping on face, cuddling, scratching</span></h6>
+                        <h6>Characteristics: <span>Loving, Affectionate, Moody</span></h6>
+                        <h6>BFavourite Food: <span>Purina One</span></h6>
+                        <a href="javascript:" title="+ Add more">+ Add more</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="right">
-                    <h3>Life Events:</h3>
-                    <a href="javascript:" title="Add a life event">+ Add a life event</a>
-                    <div>
-                        <h6>2009</h6>
-                        <span class="pull-right">Lived in New York and became a the favourite cat of the apartment</span>
-                        <p class="clearfix"></p>
-                    </div>
-                    <div>
-                        <h6>2007</h6>
-                        <span class="pull-right">Toilet trained</span>
-                        <p class="clearfix"></p>
-                    </div>
-                    <div>
-                        <h6>2003</h6>
-                        <span class="pull-right">Was born and welcomed home!</span>
-                        <p class="clearfix"></p>
-                    </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 rightCol">
+                        <h3>Life Events:</h3>
+                        <a href="#/add-life-event" title="Add a life event">+ Add a life event</a>
+                        <ul class="listEvent">
+                            <li>
+                                <span>2009</span>
+                                <p>Lived in New York and became a the favourite cat of the apartment</p>
+                            </li>
+                            <li>
+                                <span>2007</span>
+                                <p>Toilet trained</p>
+                            </li>
+                            <li>
+                                <span>2003</span>
+                                <p>Was born and welcomed home!</p>
+                            </li>
+                        </ul>
                 </div>
             </div>
-            <div id="photos" class="tab-pane fade">
-                <h1>PHOTOS</h1>
-            </div>
-            <div id="videos" class="tab-pane fade">
-                <h1>VIDEOS</h1>
+        </div>
+    </section>
+    <section class="photoAndVideo">
+        <div class="container">
+            <div class="photos">
+                <h3>Photos</h3>
+                <div class="imgSection">
+                    <div class="left pull-left">
+                        <div class="smallWrapper">
+                            <div class="smallImage pull-left" style="background-image: url('/assets/images/photo-1.png');"></div>
+                            <div class="smallImage pull-right" style="background-image: url('/assets/images/photo-2.png');"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="largeImage" style="background-image: url('/assets/images/photo-3.png');"></div>
+                    </div>
+                    <div class="right pull-right">
+                        <div class="largeImage" style="background-image: url('/assets/images/photo-4.png');"></div>
+                        <div class="smallWrapper">
+                            <div class="smallImage pull-left" style="background-image: url('/assets/images/photo-5.png');"></div>
+                            <div class="smallImage pull-right" style="background-image: url('/assets/images/photo-6.png');"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
         </div>
     </section>
