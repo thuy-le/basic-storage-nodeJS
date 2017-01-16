@@ -57,6 +57,37 @@ input[type="checkbox"]:checked{
 input[type="checkbox"]:checked:after{
   opacity: 1;
 }
+input[type="radio"]{
+  margin: 0;
+  margin-right:14px;
+  padding: 0;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius:50%;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+input[type="radio"]:after{
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background: #33B7FF;
+  left:0;
+  top: 0;
+  opacity: 0;
+}
+input[type="radio"]:checked{
+  outline: none;
+}
+input[type="radio"]:checked:after{
+  opacity: 1;
+}
 .category{
   display: inline-block;
   color: #ffffff;

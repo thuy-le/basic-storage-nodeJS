@@ -1,13 +1,14 @@
 .filterSearch{
   padding:98px 83px 82px 75px;
   background:#151515;
-  .filter{
+  .left{
     line-height: 76px;
     i{
       color:#fff;
       display: inline-block;
       margin-right: 20px;
       font-size: 25px;
+      cursor: pointer;
     }
     i:hover{
       color:#2768F9;
@@ -21,7 +22,7 @@
       margin-right: 43px;
     }
   }
-  .search{
+  .right{
     position: relative;
     input{
       border-radius: 4px;
@@ -36,7 +37,7 @@
     }
     i{
       position: absolute;
-      top: 29px;
+      top: 23px;
       left: 37px;
       font-size: 25px;
     }

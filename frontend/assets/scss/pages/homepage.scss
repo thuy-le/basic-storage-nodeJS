@@ -48,6 +48,7 @@
                 font-size: 22px;
                 letter-spacing: 2px;
                 line-height: 44px;
+                text-transform: uppercase;
               }
               h3{
                 color: #ffffff;
@@ -89,6 +90,20 @@
             }
           }
         }
+        .carousel-control{
+          .glyphicon-chevron-left{
+            &:before{
+              content:url('/assets/images/arrow-slider-home.svg');
+              display: inline-block;
+              transform: rotate(180deg);
+            }
+          }
+          .glyphicon-chevron-right{
+            &:before{
+              content:url('/assets/images/arrow-slider-home.svg');
+            }
+          }
+        }
       }
     }
   }
@@ -103,6 +118,8 @@
             font-size: 20px;
             line-height: 44px;
             margin-left: 5px;
+            position: relative;
+            top:-7px;
           }
           .number{
             color: #ffffff;

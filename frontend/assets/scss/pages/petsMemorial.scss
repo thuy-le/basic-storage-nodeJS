@@ -1,64 +1,173 @@
 #petsMemorialPage{
+  input[type="checkbox"]{
+    border: 2px solid #e5e5e5;
+    background-color:transparent;
+    outline:none;
+  }
+  input[type="checkbox"]:after{
+    left:9px;
+    top:6px;
+  }
+  input[type="checkbox"]:checked{
+    background-color: #33b7ff;
+  }
+  input[type="checkbox"]:checked:after{}
   background-color: #151515;
-  .memorialAnimal{
-    .listAnimal{
-      background-size: contain;
-      list-style: none;
-      background-repeat: no-repeat;
-      padding: 0;
-      background-position: center 50px;
-      li{
-        -webkit-transition: all 0.8s;
-        transition: all 0.8s;
-        height: 88px;
-        line-height: 88px;
-        padding: 0 50px;
+  .wrapperFilter{
+    position: relative;
+    .filterPanel{
+      padding:20px 20px 20px 50px;
+      width: 320px;
+      height:100%;
+      background: #fff;
+      position: absolute;
+      z-index: 9999;
+      top:0;
+      left:0;
+      transition: all 1s;
+      text-align: right;
+      img{
         cursor: pointer;
-        .animalName{
-          color: #ffffff;
+        transform: rotate(45deg);
+      }
+      .floatLeft{
+        display: block;
+        text-align: left;
+        margin-top: 70px;
+        p{
           font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          color: #000000;
+          font-size: 20px;
+          line-height: 44px;
+          margin:0;
+          i{
+            margin-right: 18px;
+          }
+        }
+        h1{
+          margin-top: 15px;
+          margin-bottom: 25px;
+          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+          color: #000000;
           font-size: 36px;
           line-height: 44px;
-          display: inline-block;
-          width: 25%;
         }
-        .description{
-          color: #ffffff;
+        h6{
+          color: #000000;
           font-size: 18px;
           line-height: 24px;
-          display: inline-block;
-          width: 50%;
+          font-family: 'GTWalsheimProTrial-Regular',sans-serif;
         }
-        .dateOfDead{
-          color: #ffffff;
-          font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-          font-size: 18px;
-          line-height: 44px;
-          text-align: right;
-          display: inline-block;
-          width: -webkit-calc(25% - 8px);
-          width: -moz-calc(25% - 8px);
-          width: calc(25% - 8px);
-          .dot{
-            width: 11px;
-            height: 11px;
-            border: 1px solid #ffffff;
-            background-color: #151515;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 27px;
+        .typeOfAnimal{
+          padding: 0;
+          list-style: none;
+          .line{
+            color: #8a8a8a;
+            font-size: 14px;
+            line-height: 26px;
+            input{
+              position: relative;
+              top:9px;
+            }
+          }
+        }
+        .breed{
+          list-style: none;
+          padding:0;
+          margin-top:25px;
+          li{
+            color: #000000;
+            font-family:'GTWalsheimProTrial-Regular',sans-serif;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 20px;
           }
         }
       }
-      li:hover{
-        background:#fc7171;
-      }
-      li:hover .dot{
-        background: #fff;
+    }
+    .memorialAnimal{
+      .listAnimal{
+        background-size: contain;
+        list-style: none;
+        background-repeat: no-repeat;
+        padding: 0;
+        background-position: center center;
+        li{
+          -webkit-transition: all 0.8s;
+          transition: all 0.8s;
+          height: 88px;
+          line-height: 88px;
+          padding: 0 50px;
+          cursor: pointer;
+          .animalName{
+            color: #ffffff;
+            font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+            font-size: 36px;
+            line-height: 44px;
+            display: inline-block;
+            width: 25%;
+          }
+          .description{
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 24px;
+            display: inline-block;
+            width: 50%;
+          }
+          .dateOfDead{
+            color: #ffffff;
+            font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+            font-size: 18px;
+            line-height: 44px;
+            text-align: right;
+            display: inline-block;
+            width: -webkit-calc(25% - 8px);
+            width: -moz-calc(25% - 8px);
+            width: calc(25% - 8px);
+            text-align:left;
+            padding-left:50px;
+            .dot{
+              width: 11px;
+              height: 11px;
+              border: 1px solid #ffffff;
+              background-color: #151515;
+              border-radius: 50%;
+              display: inline-block;
+              margin-right: 27px;
+
+              position: relative;
+              &:after{
+                content: '';
+                display: inline-block;
+                width: 2px;
+                height: 78px;
+                background: #fff;
+                position: absolute;
+                top: 9px;
+                left: 4px;
+              }
+            }
+          }
+          &:last-child{
+            .dateOfDead{
+              .dot{
+                &:after{
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        li:hover{
+          background:#fc7171;
+        }
+        li:hover .dot{
+          background: #fff;
+        }
       }
     }
+    .loading{}
   }
-  .loading{}
   .partnership{
     padding-bottom: 0;
   }
@@ -141,11 +250,11 @@
           font-family: 'GTWalsheimProTrial-Bold',sans-serif;
           font-size:20px;
           color:#000;
-        }
-        a:hover{
-          border-color: #000;
-          background: #000;
-          color:#fff;
+          &:hover{
+            border-color: #000;
+            background: #000;
+            color:#fff;
+          }
         }
       }
     }
