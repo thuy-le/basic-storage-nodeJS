@@ -134,36 +134,36 @@ ul{
   margin:0;
 }
 
-.mansory .item{
-  background-size:cover;
-  background-repeat:no-repeat ;
-  background-position:center center;
-  height: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  cursor: pointer;
-  position: relative;
-  padding: 0;
-  //overflow: hidden;
-  //transition: all 1s ease;
-  //-moz-transition: all 1s ease;
-  //-ms-transition: all 1s ease;
-  //-webkit-transition: all 1s ease;
-  //-o-transition: all 1s ease;
-
-}
-.mansory .item:hover{
-  -webkit-filter:none;
-  filter:none;
-  border: 4px solid #11c568;
-  //transform: scale(1.5);
-  //-moz-transform: scale(1.5);
-  //-webkit-transform: scale(1.5);
-  //-o-transform: scale(1.5);
-  //-ms-transform: scale(1.5);
-  //-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
-  //filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
-}
+//.mansory .item{
+//  background-size:cover;
+//  background-repeat:no-repeat ;
+//  background-position:center center;
+//  height: 100%;
+//  -webkit-filter: grayscale(100%);
+//  filter: grayscale(100%);
+//  cursor: pointer;
+//  position: relative;
+//  padding: 0;
+//  //overflow: hidden;
+//  //transition: all 1s ease;
+//  //-moz-transition: all 1s ease;
+//  //-ms-transition: all 1s ease;
+//  //-webkit-transition: all 1s ease;
+//  //-o-transition: all 1s ease;
+//
+//}
+//.mansory .item:hover{
+//  -webkit-filter:none;
+//  filter:none;
+//  border: 4px solid #11c568;
+//  //transform: scale(1.5);
+//  //-moz-transform: scale(1.5);
+//  //-webkit-transform: scale(1.5);
+//  //-o-transform: scale(1.5);
+//  //-ms-transform: scale(1.5);
+//  //-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+//  //filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
+//}
 .mansory .item:hover .content{
   left: 31px;
   bottom: 31px;
