@@ -133,94 +133,109 @@ input[type="radio"]:checked:after{
 ul{
   margin:0;
 }
+.mansory{
+  width:100%;
+  height:795px;
+  .item{
+    transition: all .5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+    &:after{
+      transition: all .8s;
+      content: '';
+      display: block;
+      width: 100%;
+      height:100%;
+      position: absolute;
+      border: 4px solid #11c568;
+      display: none;
+    }
 
-//.mansory .item{
-//  background-size:cover;
-//  background-repeat:no-repeat ;
-//  background-position:center center;
-//  height: 100%;
-//  -webkit-filter: grayscale(100%);
-//  filter: grayscale(100%);
-//  cursor: pointer;
-//  position: relative;
-//  padding: 0;
-//  //overflow: hidden;
-//  //transition: all 1s ease;
-//  //-moz-transition: all 1s ease;
-//  //-ms-transition: all 1s ease;
-//  //-webkit-transition: all 1s ease;
-//  //-o-transition: all 1s ease;
-//
-//}
-//.mansory .item:hover{
-//  -webkit-filter:none;
-//  filter:none;
-//  border: 4px solid #11c568;
-//  //transform: scale(1.5);
-//  //-moz-transform: scale(1.5);
-//  //-webkit-transform: scale(1.5);
-//  //-o-transform: scale(1.5);
-//  //-ms-transform: scale(1.5);
-//  //-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
-//  //filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand');
-//}
-.mansory .item:hover .content{
-  left: 31px;
-  bottom: 31px;
-  display: block;
-}
-.mansory .item .content{
-  position: absolute;
-  left:35px;
-  bottom:35px;
-  display: none;
-}
-.mansory .item .content h3{
-  color: #ffffff;
-  font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-  font-size: 24px;
-  line-height: 44px;
-  margin-bottom: 7px;
-}
-.mansory .item .content .viewProfileBtn{
-  color: #ffffff;
-  font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-  font-size: 13px;
-  padding:1px 10px;
-  border-radius: 100px;
-  border: 2px solid #a3a3a3;
-}
-.mansory .item .content .viewProfileBtn:hover{
-  background: #a3a3a3;
-}
-.mansory .item .content .likeBtn{
-  color: #ffffff;
-  font-size: 12px;
-  line-height: 20px;
-  padding: 2px 14px;
-  border-radius: 100px;
-  background-color: #ff6463;
-  border: 3px solid #ff6463;
-  font-family: 'GTWalsheimProTrial-Bold',sans-serif;
-}
-.mansory .item .content .likeBtn:hover{
-  background: #fff;
-  color:#ff6463;
-}
-.mansory .item .content .likeBtn i{
-  margin-right:4px;
-}
-.mansory .two-small{
-  height:276px;
-  overflow: hidden;
-}
-.mansory .one-big{
-  height:520px;
-  overflow: hidden;
-}
-.mansory .one-medium{
-  height:398px;
-  overflow: hidden;
+    &:hover{
+      -webkit-filter:inherit;
+      filter: inherit;
+      .content{
+        display: block;
+      }
+      &:after{
+        display: block;
+      }
+    }
+    .content{
+      position: absolute;
+      left:35px;
+      bottom:35px;
+      display: none;
+      z-index: 9999;
+      transition: all .5s;
+      h3{
+        color: #ffffff;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 24px;
+        line-height: 44px;
+        margin-bottom: 7px;
+      }
+      .viewProfileBtn{
+        color: #ffffff;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        font-size: 13px;
+        padding:1px 10px;
+        border-radius: 100px;
+        border: 2px solid #a3a3a3;
+        &:hover{
+          background: #a3a3a3;
+        }
+      }
+      .likeBtn{
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 2px 14px;
+        border-radius: 100px;
+        background-color: #ff6463;
+        border: 3px solid #ff6463;
+        font-family: 'GTWalsheimProTrial-Bold',sans-serif;
+        &:hover{
+          background: #fff;
+          color:#ff6463;
+        }
+        i{
+          margin-right:4px;
+        }
+      }
+    }
+  }
+  .col-75{
+    width:75%;
+    height:100%;
+    .col-50{
+      width:50%;
+      height:100%;
+      .two-small{
+        .one-small{
+          width: 50%;
+          height:275px;
+        }
+      }
+      .one-large{
+        width: 100%;
+        height:520px;
+      }
+    }
+  }
+  .col-25{
+    width:25%;
+    height:100%;
+    .one-medium{
+      width: 100%;
+      height: 50%;
+    }
+  }
 }
 .partnership{
   padding-top: 102px;
