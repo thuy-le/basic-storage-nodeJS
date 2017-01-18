@@ -115,11 +115,13 @@
         .center{
           width: 40%;
           color: #a3a3a3;
+          font-family: 'GTWalsheimProTrial-Medium',sans-serif;
         }
         .right{
           width: 30%;
           float: right;
           color: #a3a3a3;
+          font-family: 'GTWalsheimProTrial-Medium',sans-serif;
         }
         span{
           i{
@@ -132,14 +134,20 @@
       }
       .title{
         background-color: transparent !important;
+        border-bottom: 2px solid #505050;
+        width: calc(100% - 45px);
+        margin-left: 45px;
+        padding-left: 0;
         .left{
           font-size: 24px;
         }
         .right{
           font-size: 17px;
+          color: #fff;
         }
         .center{
           font-size: 17px;
+          color:#fff;
         }
       }
     }

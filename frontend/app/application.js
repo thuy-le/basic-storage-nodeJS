@@ -30,6 +30,7 @@ define([
             .when('/premium-profile', {templateUrl: '/templates/pages/profile/premiumProfile.html'})
             .when('/premium-profile-tab', {templateUrl: '/templates/pages/profile/premiumProfileTab.html'})
             .when('/stickers-payment-step1', {templateUrl: '/templates/pages/profile/stickersPaymentStep1.html'})
+            .when('/purchase-sticker-step-1', {templateUrl: '/templates/element/purchaseStickerStep1.html'})
             .otherwise({templateUrl: '/templates/404.html'});
     }
 

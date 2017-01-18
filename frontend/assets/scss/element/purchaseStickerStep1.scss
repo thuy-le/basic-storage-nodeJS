@@ -1,0 +1,63 @@
+.purchaseStickerStep1{
+  width: 80%;
+  height:590px;
+  overflow-y:scroll ;
+  border: 1px solid red;
+  .left{
+    width:70%;
+    border: 1px solid blue;
+    h4{
+      color: #131f34;
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-align: center;
+    }
+    form{
+      input[type="text"],input[type="email"],input[type="number"]{
+        background-color: #f6f6f6;
+        border-radius: 0;
+        border: none;
+        padding:10px 20px;
+      }
+      .line{
+        margin-bottom: 10px;
+      }
+      .twoCol{
+        .singleCol{
+          input{}
+          label{}
+          img{}
+        }
+      }
+      .oneCol{
+        input{}
+      }
+      a{}
+    }
+    h6{}
+  }
+  .right{
+    width: 30%;
+    border: 1px solid yellow;
+    .sticker{
+       .colImg{
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+        margin: 25px 0;
+        img{
+          width: 65px;
+          height: auto;
+          cursor: pointer;
+          animation: all 0.5s;
+          &:hover{
+            transform:scale(1.2);
+          }
+        }
+      }
+    }
+  }
+
+
+}

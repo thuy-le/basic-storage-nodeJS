@@ -22,7 +22,7 @@ select{
   background-color: #fdfdfd;
 }
 body{
-  font-family:'GTWalsheimProTrial-Light',sans-serif;
+  font-family:'GTWalsheimProTrial-Medium',sans-serif;
 }
 input[type="checkbox"]{
   margin: 0;
@@ -153,9 +153,9 @@ ul{
       height:100%;
       position: absolute;
       border: 4px solid #11c568;
+      background: linear-gradient(180deg, rgba(237, 237, 237, 0) 3%, #000000 97%);
       display: none;
     }
-
     &:hover{
       -webkit-filter:inherit;
       filter: inherit;
@@ -482,7 +482,7 @@ ul{
           h5{
             margin:0 15px 0 0;
             color: #000000;
-            font-family:'GTWalsheimProTrial-Regular',sans-serif;
+            font-family:'GTWalsheimProTrial-Bold',sans-serif;
             font-size: 15px;
             line-height: 26px;
             display: inline-block;
@@ -493,12 +493,14 @@ ul{
             font-size: 13px;
             line-height: 26px;
             text-transform: none;
+            font-family: 'GTWalsheimProTrial-Regular',sans-serif;
           }
           p{
             color: #606060;
             font-size: 15px;
             line-height: 23px;
             max-width: 600px;
+            font-family: 'GTWalsheimProTrial-Regular',sans-serif;
           }
         }
         .imgSticker{
