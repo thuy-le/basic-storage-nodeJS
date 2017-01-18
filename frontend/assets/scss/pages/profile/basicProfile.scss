@@ -59,6 +59,9 @@
         border-radius: 50%;
         border: 2px solid;
         margin-right: 6px;
+        i{
+          color: #fff;
+        }
         &:first-child{
           background-image: linear-gradient(to top, #e09b3d 0%, #c74c4d 30%, #c21975 66%, #7024c4 100%);
           border-color: #A51C91;
@@ -89,6 +92,9 @@
         }
         &:hover{
           background: transparent;
+          i{
+            color: #56A9EB;
+          }
         }
       }
     }

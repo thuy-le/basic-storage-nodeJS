@@ -1,7 +1,4 @@
 #homepage{
-  /*mansory*/
-
-  /*mansory*/
   .getStarted{
     background-image: url('/assets/images/bg_getStaredHome.png');
     background-size:cover;
@@ -44,7 +41,7 @@
         .carousel-inner{
           .item{
             .col-lg-7{
-              padding-top: 89px;
+              padding-top: 65px;
               padding-left:157px;
               h4{
                 color: #ffffff;
@@ -122,7 +119,7 @@
             line-height: 44px;
             margin-left: 5px;
             position: relative;
-            top:-7px;
+            top:-4px;
           }
           .number{
             color: #ffffff;
@@ -167,6 +164,25 @@
           background: #fff;
           color: #1c1c1c;
         }
+      }
+    }
+  }
+  .loadmore{
+    text-align: center;
+    padding:58px 0;
+    background-color: #1c1c1c;
+    a{
+      color: #ffffff;
+      font-family:'GTWalsheimProTrial-Bold',sans-serif;
+      font-size: 22px;
+      height: 44px;
+      line-height: 37px;
+      width: 172px;
+      display: inline-block;
+      border-radius: 100px;
+      border: 3px solid #828282;
+      &:hover{
+        background: #828282;
       }
     }
   }
