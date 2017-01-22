@@ -3,12 +3,14 @@ define(function(require) {
     var BaseController = require('cmvp/controllers/BaseController');
 	var View = require('ui/login/LoginView');
 
-	function LoginController($scope) {
+	function LoginController($scope, $location, $routeParams) {
 		BaseController.constructor(this, {
-		    $scope: $scope
+		    $scope: $scope,
+			$location: $location,
+			$routeParams: $routeParams
 		}, View);
 	}
 
-	LoginController.$inject = ['$scope'];
+	LoginController.$inject = ['$scope', '$location', '$routeParams'];
     return LoginController;
 });

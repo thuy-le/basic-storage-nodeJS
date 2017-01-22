@@ -14,6 +14,7 @@ define(function(require) {
     LoginPresenter.prototype.show = function(view, model) {
         var creator = new PresenterHandlerCreator(this, view, model);
         view.event.onLoad = creator.createEventHandler({modelMethod: 'initModel', viewSuccess: 'initData'});
+        view.event.onLogin = creator.createEventHandler({modelMethod: 'login', viewSuccess: 'onLoginSuccess', viewError: 'onLoginError'});
     };
 
     return LoginPresenter;

@@ -1,12 +1,12 @@
-<main id="loginPage" class="formPage">
+<main id="loginPage" class="formPage" ng-controller="LoginController" ng-init="event.onLoad()">
     <div class="content">
         <h1>Welcome Back</h1>
         <a href="javascript:"><i class="fa fa-facebook" aria-hidden="true"></i>Login with Facebook</a>
         <h2>OR</h2>
-        <input type="email" placeholder="Enter your email">
-        <input type="password" placeholder="Password">
+        <input type="email" ng-model="data.user.email" placeholder="Enter your email">
+        <input type="password" ng-model="data.user.password" placeholder="Password">
         <input type="checkbox"><span for="">Remember me</span>
-        <button>Login</button>
+        <button ng-click="event.onLogin(data.user)">Login</button>
     </div>
     <img class="img-responsive" src="/assets/images/login_page.png" alt="">
 </main>
