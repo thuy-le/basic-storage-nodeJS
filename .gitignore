@@ -5,5 +5,4 @@ npm-debug.log
 /deployment
 compose
 compose_config
-node_modules
 .vscode
