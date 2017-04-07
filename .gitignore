@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-.idea/
 .DS_Store
-reports
-lib
-build
 npm-debug.log
 .env
 /development
 /deployment
 compose
 compose_config
-=======
 node_modules
-.idea
 .vscode
->>>>>>> 64691eb6abf4a6ebb4d1877bcc8332bc838f45de

@@ -14,5 +14,5 @@ RUN npm run compile
 
 ENV NODE_ENV production
 ENV DEBUG false
-EXPOSE 3336
+EXPOSE 3333
 CMD npm start

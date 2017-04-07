@@ -2,12 +2,7 @@ version: '2'
 services:
 
   db:
-    image: mysql:5.7.12
-    environment:
-      - MYSQL_USER=pets4ever
-      - MYSQL_PASSWORD=pets4ever
-      - MYSQL_DATABASE=pets4ever
-      - MYSQL_ROOT_PASSWORD=pets4ever
+    image: mongo
     volumes:
       - ./${ENVIRONMENT}/dbdata:/data/db
 

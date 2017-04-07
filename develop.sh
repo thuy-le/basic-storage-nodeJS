@@ -3,7 +3,7 @@
 set -xeuo pipefail
 
 export ENVIRONMENT=development
-source ./configuration/development/config
+source ./configuration/${ENVIRONMENT}/config
 
 if [ "$(uname)" == "Darwin" ]; then
 	export DOCKERHOST_IP="${IP_ALIAS}"
@@ -12,9 +12,9 @@ else
 fi
 echo "DOCKERHOST_IP: $DOCKERHOST_IP"
 
-export PORT=${PORT:-5557}
+export PORT=${PORT:-5555}
 
-DOCKER_COMPOSE="docker-compose -p pets4ever${ENVIRONMENT} -f docker-compose.yml -f docker-${ENVIRONMENT}.yml"
+DOCKER_COMPOSE="docker-compose -p vault_dragon-${ENVIRONMENT} -f docker-compose.yml -f docker-${ENVIRONMENT}.yml"
 
 ${DOCKER_COMPOSE} build
 ${DOCKER_COMPOSE} down || true

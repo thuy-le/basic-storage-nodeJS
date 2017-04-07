@@ -1,7 +1,7 @@
 .PHONY: build
 
 DOCKER_REGISTRY=localhost:5000
-PROJECT=pets4ever-backend
+PROJECT=vault_dragon-backend
 TAG=latest
 IMAGE=$(DOCKER_REGISTRY)/$(PROJECT)
 

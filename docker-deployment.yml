@@ -1,17 +1,13 @@
 version: '2'
 services:
 
-  frontend:
-    image: localhost:5000/pets4ever-frontend
-
   backend:
-    image: localhost:5000/pets4ever-backend
+    image: localhost:5000/vault_dragon-backend
     depends_on:
       - db
   
   proxy:
     depends_on:
-      - frontend
       - backend
     volumes:
       - ./configuration/deployment/nginx.conf:/etc/nginx/conf.d/default.conf
